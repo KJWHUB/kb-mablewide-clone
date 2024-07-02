@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import "assets/main.css";
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
