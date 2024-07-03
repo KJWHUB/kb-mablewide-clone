@@ -1,18 +1,55 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const main = [
+  {
+    id: "SvgoSidebarHome",
+  },
+  {
+    id: "SvgoSidebarStar",
+  },
+  {
+    id: "SvgoSidebarHeartbeat",
+  },
+  {
+    id: "SvgoSidebarPrimeclub",
+  },
+  {
+    id: "SvgoSidebarPiechart",
+  },
+];
+
+const settings = [
+  {
+    id: "SvgoSidebarMoon",
+  },
+  {
+    id: "SvgoSidebarSetting",
+  },
+];
+</script>
 
 <template>
   <aside class="main-layout-sidebar">
-    <!-- home -->
-    <!-- like -->
-    <!-- trading -->
-    <!-- prime club -->
-    <!-- my assets  -->
+    <!-- logo -->
+    <div class="icon-list-wrap"><SvgoMLogo /></div>
+
+    <!-- main -->
+    <div class="icon-list-wrap">
+      <template v-for="item in main" :key="item.id">
+        <component :is="item.id" />
+      </template>
+    </div>
 
     <!-- settings -->
-    <!-- dark mode -->
-    <!-- setting -->
+    <div class="icon-list-wrap">
+      <template v-for="item in settings" :key="item.id">
+        <component :is="item.id" />
+      </template>
+    </div>
 
     <!-- menu expand -->
+    <div class="icon-list-wrap">
+      <SvgoSidebarRightArrow />
+    </div>
   </aside>
 </template>
 
@@ -25,5 +62,11 @@
   height: 100%;
   width: 8rem;
   position: fixed;
+}
+
+.icon-list-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.6rem;
 }
 </style>

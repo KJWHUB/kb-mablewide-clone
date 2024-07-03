@@ -2,10 +2,13 @@
   <div class="main-layout">
     <!-- sidebar -->
     <DefaultLayoutAppSidebar />
-    <!-- header -->
-    <DefaultLayoutAppHeader />
-
-    <slot />
+    <div style="margin-left: 8rem">
+      <!-- header -->
+      <DefaultLayoutAppHeader />
+      <main>
+        <slot />
+      </main>
+    </div>
   </div>
 </template>
 

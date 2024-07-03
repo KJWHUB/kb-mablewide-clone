@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   },
   svgo: {
     autoImportPath: "./assets/icons/",
+    defaultImport: "component",
   },
   css: ["~/assets/css/main.css"],
 });
