@@ -16,7 +16,8 @@ const props = defineProps({
 </template>
 
 <style scoped lang="scss">
-$default-color: #b2b4bf;
+$default-color: #7d7e85;
+// $default-color: #b2b4bf;
 $active-color: #ffffff;
 $hover-background-color: #ffffff05;
 
@@ -25,6 +26,7 @@ $hover-background-color: #ffffff05;
   width: 100%;
   border-radius: 0.8rem;
   color: $default-color;
+  aspect-ratio: 1 / 1;
 
   transition: all 0.3s;
 
