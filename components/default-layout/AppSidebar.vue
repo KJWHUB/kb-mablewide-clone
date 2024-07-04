@@ -2,18 +2,23 @@
 const main = [
   {
     id: "SvgoSidebarHome",
+    tooltip: "홈",
   },
   {
     id: "SvgoSidebarStar",
+    tooltip: "찜한주식",
   },
   {
     id: "SvgoSidebarHeartbeat",
+    tooltip: "트레이딩",
   },
   {
     id: "SvgoSidebarPrimeclub",
+    tooltip: "PRIME CLUB",
   },
   {
     id: "SvgoSidebarPiechart",
+    tooltip: "내자산",
   },
 ];
 
@@ -35,7 +40,7 @@ const settings = [
     <!-- main -->
     <div class="icon-list-wrap">
       <template v-for="item in main" :key="item.id">
-        <component :is="item.id" />
+        <SidebarIconWrap :item="item" />
       </template>
     </div>
 
