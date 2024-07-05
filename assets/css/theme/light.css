@@ -1,4 +1,9 @@
+html.light-mode {
+  --background-color: #fff;
+  --text-color: rgb(30, 30, 35);
+}
+
 .light-mode body {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }

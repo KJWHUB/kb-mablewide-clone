@@ -1,4 +1,9 @@
+html.dark-mode {
+  --background-color: #1f1d24;
+  --text-color: #ebf4f1;
+}
+
 .dark-mode body {
-  background-color: #1f1d24;
-  color: #ebf4f1;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }

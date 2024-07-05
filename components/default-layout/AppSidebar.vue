@@ -1,37 +1,36 @@
 <script setup lang="ts">
+const route = useRoute();
+console.log(route);
 const main = [
   {
     id: "SvgoSidebarHome",
     tooltip: "홈",
+    path: "/",
   },
   {
     id: "SvgoSidebarStar",
     tooltip: "찜한주식",
+    path: "/liked-stocks",
   },
   {
     id: "SvgoSidebarHeartbeat",
     tooltip: "트레이딩",
+    path: "/trading",
   },
   {
     id: "SvgoSidebarPrimeclub",
     tooltip: "PRIME CLUB",
+    path: "/prime-club",
   },
   {
     id: "SvgoSidebarPiechart",
     tooltip: "내자산",
+    path: "/my-assets",
   },
 ];
 
-const settings = [
-  {
-    id: "SvgoSidebarMoon",
-    tooltip: "다크모드",
-  },
-  {
-    id: "SvgoSidebarSetting",
-    tooltip: "설정",
-  },
-];
+const isActive = (path: string) => route.path === path;
+const checkActive = (path: string) => (isActive(path) ? "var(--text-color)" : undefined);
 </script>
 
 <template>
@@ -42,25 +41,25 @@ const settings = [
     <!-- main -->
     <div class="icon-list-wrap main">
       <template v-for="item in main" :key="item.id">
-        <SidebarIconWrap :item="item" />
+        <RouterLink :to="item.path">
+          <SidebarIconWrap :item="item">
+            <component :is="item.id" :style="{ color: checkActive(item.path) }" />
+          </SidebarIconWrap>
+        </RouterLink>
       </template>
     </div>
 
     <!-- settings -->
     <div class="icon-list-wrap settings">
-      <template v-for="item in settings" :key="item.id">
-        <SidebarIconWrap :item="item" />
-      </template>
+      <SidebarThemeController />
+      <SidebarIconWrap :item="{ id: 'SvgoSidebarSetting', tooltip: '설정' }">
+        <SvgoSidebarSetting />
+      </SidebarIconWrap>
     </div>
 
     <!-- menu expand -->
     <div class="icon-list-wrap menu-expand">
-      <SidebarIconWrap
-        :item="{
-          id: 'SvgoSidebarRightArrow',
-          tooltip: '메뉴펼치기',
-        }"
-      />
+      <SidebarMenuExpand />
     </div>
   </aside>
 </template>
@@ -73,6 +72,7 @@ const settings = [
   height: 100%;
   width: 8rem;
   position: fixed;
+
   z-index: 100;
 }
 

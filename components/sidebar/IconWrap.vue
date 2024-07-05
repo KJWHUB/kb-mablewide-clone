@@ -10,7 +10,7 @@ const props = defineProps({
 <template>
   <TooltipSidebarIcon :label="props.item.tooltip">
     <div class="sidebar-icon-wrap">
-      <component :is="props.item.id" />
+      <slot />
     </div>
   </TooltipSidebarIcon>
 </template>
@@ -18,7 +18,7 @@ const props = defineProps({
 <style scoped lang="scss">
 $default-color: #7d7e85;
 // $default-color: #b2b4bf;
-$active-color: #ffffff;
+$active-color: var(--text-color);
 $hover-background-color: #ffffff05;
 
 .sidebar-icon-wrap {
@@ -29,6 +29,8 @@ $hover-background-color: #ffffff05;
   aspect-ratio: 1 / 1;
 
   transition: all 0.3s;
+
+  cursor: pointer;
 
   &:hover {
     color: $active-color;

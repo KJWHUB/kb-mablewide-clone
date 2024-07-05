@@ -22,6 +22,7 @@ const props = defineProps({
     position: absolute;
     padding: 0.9rem 1.6rem;
     background-color: #000;
+    color: #fff;
     border-radius: 0.4rem;
 
     top: 50%;
