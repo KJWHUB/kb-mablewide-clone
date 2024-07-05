@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>1</div>
+  <div>찜한주식</div>
 </template>
 
 <style></style>

@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>1</div>
+  <div>프라임 클럽</div>
 </template>
 
 <style></style>
