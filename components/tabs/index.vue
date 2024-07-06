@@ -2,14 +2,15 @@
 type Tab = {
   id: string;
   title: string;
-  content?: string;
+  content?: string | Component;
 };
 type Tabs = Tab[];
 type TabId = Tab["id"];
 
-const activeTab = defineModel<TabId>({
+const activeTabId = defineModel<TabId>({
   required: true,
 });
+
 const props = defineProps({
   tabs: {
     type: Array as PropType<Tabs>,
@@ -17,9 +18,30 @@ const props = defineProps({
   },
 });
 
-const isActive = (tabId: TabId) => activeTab.value === tabId;
+const activeTab = computed(() => props.tabs.find((tab) => tab.id === activeTabId.value));
+
+const isActive = (tabId: TabId) => activeTabId.value === tabId;
 const changeTab = (tabId: TabId) => {
-  activeTab.value = tabId;
+  activeTabId.value = tabId;
+};
+
+const isVueComponent = (value: unknown): value is Component => {
+  if (typeof value === "object" && value !== null) {
+    return "render" in value || "setup" in value || "template" in value;
+  }
+
+  return false;
+};
+
+const isComponent = (value: Tab["content"]) => {
+  if (isVueComponent(value)) {
+    return true;
+  }
+
+  if (typeof value === "string") {
+    return isVueComponent(resolveComponent(value));
+  }
+  return false;
 };
 </script>
 
@@ -37,9 +59,11 @@ const changeTab = (tabId: TabId) => {
       </li>
     </ul>
     <div class="tab-content">
-      <template v-for="tab in tabs" :key="tab.id">
-        <div v-if="tab.id === 'tab1'">{{ tab.content }}</div>
-      </template>
+      <slot :name="activeTabId">
+        <template v-if="isComponent(activeTab?.content)">
+          <component :is="activeTab?.content" />
+        </template>
+      </slot>
     </div>
   </div>
 </template>
