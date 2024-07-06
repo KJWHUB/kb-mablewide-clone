@@ -1,2 +1,6 @@
 @import "./light.css";
 @import "./dark.css";
+
+:root {
+  --main-color: #f2f219;
+}

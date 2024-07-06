@@ -1,6 +1,7 @@
 html.light-mode {
   --background-color: #fff;
   --text-color: rgb(30, 30, 35);
+  --dialog-border-color: #dadada;
 }
 
 .light-mode body {
