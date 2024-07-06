@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  vue: {
+    runtimeCompiler: true,
+  },
   modules: ["@nuxt/eslint", "@nuxtjs/color-mode", "nuxt-svgo"],
   colorMode: {
     preference: "system",
