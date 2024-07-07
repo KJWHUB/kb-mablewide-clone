@@ -15,3 +15,9 @@ html {
 body {
   font-family: "Pretendard";
 }
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}

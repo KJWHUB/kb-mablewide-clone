@@ -2,18 +2,28 @@
   <div class="main-layout">
     <!-- sidebar -->
     <DefaultLayoutAppSidebar />
-    <div style="margin-left: 8rem">
+    <div style="margin-left: 8rem; flex: 1">
       <!-- header -->
       <DefaultLayoutAppHeader />
-      <main>
+      <main class="content">
         <slot />
       </main>
     </div>
   </div>
 </template>
 
-<style>
+<style lang="scss">
+$border-color: #151419;
+
+$content-border: 4px solid $border-color;
 .main-layout {
   display: flex;
+
+  main.content {
+    width: 100%;
+    min-height: 100vh;
+    border-left: $content-border;
+    border-top: $content-border;
+  }
 }
 </style>
