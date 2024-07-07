@@ -94,6 +94,11 @@ onMounted(() => {
     padding: 0.95rem 2rem;
     font-size: 1.4rem;
     color: var(--text-color);
+    cursor: pointer;
+
+    &:hover {
+      background: var(--hover);
+    }
 
     .left {
       display: flex;

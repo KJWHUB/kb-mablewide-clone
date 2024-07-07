@@ -56,7 +56,7 @@ onUnmounted(() => {
         <!-- 최근 검색어 -->
         <HeaderSearchRecentSearches />
         <!-- 이런 검색은 어떠세요? -->
-        <h4>이런 검색은 어떠세요?</h4>
+        <HeaderSearchRecommendedSearch />
       </div>
     </div>
   </div>
