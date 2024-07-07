@@ -8,6 +8,7 @@ type RecentSearch = {
 };
 
 const recent = ref<RecentSearch[]>([]);
+const isEmpty = computed(() => recent.value.length === 0);
 
 const allClear = () => {
   recent.value = [];
@@ -39,7 +40,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="recent">
+  <div v-if="!isEmpty" class="recent">
     <div class="header">
       <h4 class="title">최근 검색어</h4>
       <button class="all-clear" @click="allClear">전체삭제</button>
