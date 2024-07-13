@@ -1,0 +1,258 @@
+{
+  "REALPOPULAR": {
+    "kor": {
+      "total": 10,
+      "row": [
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015501",
+          "rate": 437,
+          "shcode": "005930",
+          "popular_keyword": "삼성전자",
+          "tradcode": null,
+          "updown": "down",
+          "mkt_gb": "K",
+          "popular_type": "1"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015501",
+          "rate": 312,
+          "shcode": "000250",
+          "popular_keyword": "삼천당제약",
+          "tradcode": null,
+          "updown": "down",
+          "mkt_gb": "Q",
+          "popular_type": "1"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015501",
+          "rate": 282,
+          "shcode": "000660",
+          "popular_keyword": "SK하이닉스",
+          "tradcode": null,
+          "updown": "up",
+          "mkt_gb": "K",
+          "popular_type": "1"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015501",
+          "rate": 274,
+          "shcode": "028300",
+          "popular_keyword": "HLB",
+          "tradcode": null,
+          "updown": "down",
+          "mkt_gb": "Q",
+          "popular_type": "1"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015501",
+          "rate": 192,
+          "shcode": "042700",
+          "popular_keyword": "한미반도체",
+          "tradcode": null,
+          "updown": "down",
+          "mkt_gb": "K",
+          "popular_type": "1"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015501",
+          "rate": 191,
+          "shcode": "373220",
+          "popular_keyword": "LG에너지솔루션",
+          "tradcode": null,
+          "updown": "new",
+          "mkt_gb": "K",
+          "popular_type": "1"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015501",
+          "rate": 153,
+          "shcode": "196170",
+          "popular_keyword": "알테오젠",
+          "tradcode": null,
+          "updown": "down",
+          "mkt_gb": "Q",
+          "popular_type": "1"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015501",
+          "rate": 147,
+          "shcode": "068270",
+          "popular_keyword": "셀트리온",
+          "tradcode": null,
+          "updown": "new",
+          "mkt_gb": "K",
+          "popular_type": "1"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015501",
+          "rate": 144,
+          "shcode": "005380",
+          "popular_keyword": "현대차",
+          "tradcode": null,
+          "updown": "new",
+          "mkt_gb": "K",
+          "popular_type": "1"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015501",
+          "rate": 141,
+          "shcode": "035720",
+          "popular_keyword": "카카오",
+          "tradcode": null,
+          "updown": "new",
+          "mkt_gb": "K",
+          "popular_type": "1"
+        }
+      ],
+      "correctyn": null,
+      "correctkwd": null
+    },
+    "for": {
+      "total": 10,
+      "row": [
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015502",
+          "rate": 799,
+          "shcode": "NASTSLA",
+          "popular_keyword": "테슬라",
+          "tradcode": "NAS",
+          "updown": "up",
+          "mkt_gb": "0",
+          "popular_type": "2"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015502",
+          "rate": 496,
+          "shcode": "NASNVDA",
+          "popular_keyword": "엔비디아",
+          "tradcode": "NAS",
+          "updown": "down",
+          "mkt_gb": "0",
+          "popular_type": "2"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015502",
+          "rate": 120,
+          "shcode": "NASAMD",
+          "popular_keyword": "AMD",
+          "tradcode": "NAS",
+          "updown": "new",
+          "mkt_gb": "0",
+          "popular_type": "2"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015502",
+          "rate": 92,
+          "shcode": "NASINTC",
+          "popular_keyword": "인텔",
+          "tradcode": "NAS",
+          "updown": "down",
+          "mkt_gb": "0",
+          "popular_type": "2"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015502",
+          "rate": 90,
+          "shcode": "NASNDRA",
+          "popular_keyword": "엔드라 라이프 사이언시스",
+          "tradcode": "NAS",
+          "updown": "new",
+          "mkt_gb": "0",
+          "popular_type": "2"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015502",
+          "rate": 83,
+          "shcode": "NASAAPL",
+          "popular_keyword": "애플",
+          "tradcode": "NAS",
+          "updown": "down",
+          "mkt_gb": "0",
+          "popular_type": "2"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015502",
+          "rate": 56,
+          "shcode": "NASBIDU",
+          "popular_keyword": "바이두(ADR)",
+          "tradcode": "NAS",
+          "updown": "new",
+          "mkt_gb": "0",
+          "popular_type": "2"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015502",
+          "rate": 50,
+          "shcode": "NYSKO",
+          "popular_keyword": "코카콜라",
+          "tradcode": "NYS",
+          "updown": "down",
+          "mkt_gb": "0",
+          "popular_type": "2"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015502",
+          "rate": 46,
+          "shcode": "NYSTSM",
+          "popular_keyword": "TSMC(ADR)",
+          "tradcode": "NYS",
+          "updown": "new",
+          "mkt_gb": "0",
+          "popular_type": "2"
+        },
+        {
+          "duration": "time",
+          "logtype": "m-able",
+          "modifyDate": "20240708015502",
+          "rate": 46,
+          "shcode": "NASARM",
+          "popular_keyword": "에이알엠 홀딩스(ADR)",
+          "tradcode": "NAS",
+          "updown": "new",
+          "mkt_gb": "0",
+          "popular_type": "2"
+        }
+      ],
+      "correctyn": null,
+      "correctkwd": null
+    }
+  }
+}
