@@ -2,13 +2,12 @@
 
 <template>
   <header class="header">
-    <div style="display: flex">
-      <!-- search -->
-      <HeaderSearch />
-      <!-- Real-time popularity -->
-      <HeaderRealTimePopular />
-    </div>
+    <!-- search -->
+    <HeaderSearch />
+    <!-- Real-time popularity -->
+    <HeaderRealTimePopular />
     <div>
+      1
       <!-- download -->
       <!-- notice -->
 
@@ -21,6 +20,7 @@
 <style scoped>
 .header {
   display: flex;
+  gap: 1.2rem;
   justify-content: space-between;
   align-items: center;
   position: relative;
