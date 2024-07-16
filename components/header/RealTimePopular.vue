@@ -59,26 +59,28 @@ const slideChange = (swiper: Swiper) => {
     <div class="status-badge-wrap">
       <span class="status-badge">{{ statusLabel }}</span>
     </div>
-    <Swiper
-      :modules="[SwiperAutoplay]"
-      :slides-per-view="1"
-      :loop="true"
-      :autoplay="{
-        delay: 2000,
-        // disableOnInteraction: false,
-      }"
-      :direction="'vertical'"
-      style="height: 30px; margin: 0"
-      @slide-change="slideChange"
-    >
-      <template v-for="item in popularList" :key="item.id">
-        <SwiperSlide>
-          <div class="popular-label-wrap">
-            <strong class="popular-label">{{ item.name }}</strong>
-          </div>
-        </SwiperSlide>
-      </template>
-    </Swiper>
+    <ClientOnly>
+      <Swiper
+        :modules="[SwiperAutoplay]"
+        :slides-per-view="1"
+        :loop="true"
+        :autoplay="{
+          delay: 2000,
+          // disableOnInteraction: false,
+        }"
+        :direction="'vertical'"
+        style="height: 30px; margin: 0"
+        @slide-change="slideChange"
+      >
+        <template v-for="item in popularList" :key="item.id">
+          <SwiperSlide>
+            <div class="popular-label-wrap">
+              <strong class="popular-label">{{ item.name }}</strong>
+            </div>
+          </SwiperSlide>
+        </template>
+      </Swiper>
+    </ClientOnly>
   </div>
 </template>
 
