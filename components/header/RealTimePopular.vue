@@ -22,6 +22,7 @@ const fetchList = async () => {
 
   console.log("a", toRaw(res.data));
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const createList = (list: any[]) => {
     return list.map((item, i) => {
       return {
@@ -39,6 +40,9 @@ const fetchList = async () => {
 
 fetchList();
 
+// BUG: 타입추적 똑바로 못함
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 const slideChange = (swiper: Swiper) => {
   status.value = popularList.value[swiper.activeIndex].type;
 };
@@ -47,14 +51,6 @@ const slideChange = (swiper: Swiper) => {
 <template>
   <div class="real-time-popular">
     <strong class="title">실시간 인기</strong>
-    <!-- <div class="real-time-popular-list-wrap">
-      <p>{{ statusLabel }}</p>
-      <ul>
-        <li v-for="(item, i) in list" :key="item.id">
-          {{ `${i + 1}. ${item.name}` }}
-        </li>
-      </ul>
-    </div> -->
 
     <div class="status-badge-wrap">
       <span class="status-badge">{{ statusLabel }}</span>
@@ -66,7 +62,6 @@ const slideChange = (swiper: Swiper) => {
         :loop="true"
         :autoplay="{
           delay: 2000,
-          // disableOnInteraction: false,
         }"
         :direction="'vertical'"
         style="height: 30px; margin: 0"

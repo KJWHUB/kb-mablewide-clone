@@ -7,8 +7,8 @@
     <!-- Real-time popularity -->
     <HeaderRealTimePopular />
     <div>
-      1
       <!-- download -->
+      <HeaderDownload />
       <!-- notice -->
 
       <!-- login -->

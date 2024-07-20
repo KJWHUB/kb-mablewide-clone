@@ -19,6 +19,8 @@ $content-border: 4px solid $border-color;
 .main-layout {
   display: flex;
 
+  overflow: hidden;
+
   main.content {
     width: 100%;
     min-height: 100vh;
