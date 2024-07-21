@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   vue: {
     runtimeCompiler: true,
   },
-  modules: ["@nuxt/eslint", "@nuxtjs/color-mode", "nuxt-svgo", "nuxt-swiper"],
+  modules: ["@nuxt/eslint", "@nuxtjs/color-mode", "nuxt-svgo", "nuxt-swiper", "@pinia/nuxt"],
   colorMode: {
     preference: "system",
     fallback: "dark",

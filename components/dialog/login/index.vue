@@ -5,6 +5,7 @@ import QRAuthentication from "./QRAuthentication.vue";
 const visible = defineModel({
   type: Boolean,
   default: false,
+  required: true,
 });
 
 const tabs = [

@@ -8,6 +8,7 @@
         height: '3rem',
         whiteSpace: 'nowrap',
       }"
+      @click="$modal.open('LOGIN')"
     >
       로그인
     </Button>

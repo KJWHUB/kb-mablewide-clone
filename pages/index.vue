@@ -1,13 +1,7 @@
-<script setup lang="ts">
-const visible = ref(false);
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    <button @click="visible = true">Open Dialog</button>
-    <!-- modal -->
-    <DialogLogin v-model="visible" />
-  </div>
+  <div>1</div>
 </template>
 
 <style></style>

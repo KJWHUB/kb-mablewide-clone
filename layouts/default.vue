@@ -9,6 +9,9 @@
         <slot />
       </main>
     </div>
+
+    <!-- modal -->
+    <ModalGlobal />
   </div>
 </template>
 

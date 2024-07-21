@@ -2,6 +2,7 @@
 const isOpen = defineModel({
   type: Boolean,
   default: false,
+  required: true,
 });
 const props = defineProps({
   title: {
