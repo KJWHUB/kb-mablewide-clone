@@ -5,7 +5,7 @@ const content = "M-able 와이드를 앱으로 사용해보세요. <br> 바탕�
 <template>
   <Popover :contents="content" width="300px" position="bottom">
     <template #reference>
-      <div class="download-wrap">
+      <div class="download-wrap hover">
         <SvgoDownload class="icon" />
       </div>
     </template>
@@ -31,8 +31,6 @@ const content = "M-able 와이드를 앱으로 사용해보세요. <br> 바탕�
 
   &:hover {
     opacity: 1;
-    background: var(--hover);
-    border-radius: 0.4rem;
   }
 }
 </style>

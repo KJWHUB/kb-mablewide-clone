@@ -18,7 +18,6 @@ $border-color: #151419;
 $content-border: 4px solid $border-color;
 .main-layout {
   display: flex;
-
   overflow: hidden;
 
   main.content {

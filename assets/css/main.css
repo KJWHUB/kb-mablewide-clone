@@ -21,3 +21,14 @@ button {
   border: none;
   background: none;
 }
+
+/* custom */
+.hover:hover {
+  background: var(--hover);
+  border-radius: 0.4rem;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
