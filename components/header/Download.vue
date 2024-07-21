@@ -3,7 +3,7 @@ const content = "M-able 와이드를 앱으로 사용해보세요. <br> 바탕�
 </script>
 
 <template>
-  <Popover :contents="content" width="300px">
+  <Popover :contents="content" width="300px" position="bottom">
     <template #reference>
       <div class="download-wrap">
         <SvgoDownload class="icon" />

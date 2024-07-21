@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const visible = defineModel<boolean>("visible", {
   required: false,
-  default: true,
+  default: false,
 });
 
 export interface Props {
@@ -17,15 +17,18 @@ const props = withDefaults(defineProps<Props>(), {
 });
 
 const showPopover = computed(() => visible.value);
+
+// 컨텐츠가 viewport 를 벗어나지 않도록 위치 조정
 </script>
 
 <template>
   <div class="popover">
-    <slot name="reference" />
+    <slot ref="reference" name="reference" />
 
     <!-- content -->
     <div
       v-if="showPopover"
+      ref="popover"
       class="content"
       :class="{
         [props.position]: true,
