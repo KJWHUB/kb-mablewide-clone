@@ -53,7 +53,7 @@ const checkActive = (path: string) => (isActive(path) ? "var(--text-color)" : un
     <div class="icon-list-wrap settings">
       <SidebarThemeController />
       <SidebarIconWrap :item="{ id: 'SvgoSidebarSetting', tooltip: '설정' }">
-        <SvgoSidebarSetting />
+        <SvgoSidebarSetting @click="$modal.open('LOGIN')" />
       </SidebarIconWrap>
     </div>
 

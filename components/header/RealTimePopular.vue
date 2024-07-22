@@ -108,7 +108,8 @@ const slideChange = (swiper: Swiper) => {
 
       border-radius: 0.4rem;
 
-      background-color: var(--badge04);
+      // background-color: rgb(var(--badge04), 0.15); 변환
+      background-color: rgb(rgba(178, 180, 191, 0.15), 0.15);
     }
   }
 
