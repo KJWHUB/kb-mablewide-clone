@@ -1,7 +1,38 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const bannerVisible = ref<boolean>(true);
+const bannerClose = () => {
+  bannerVisible.value = false;
+};
+</script>
 
 <template>
-  <div>1</div>
+  <div>
+    <!-- banner -->
+    <div v-if="bannerVisible" style="height: 4.5rem">
+      <BannerMain @close="bannerClose" />
+    </div>
+    <!-- 국내/해외 탭영역 -->
+    <div />
+    1asdadlnaksdasmndkl
+    <!-- 변경된 탭 컨텐츠 -->
+    <div>
+      <!-- 주요지수 -->
+
+      <!-- 뉴스 -->
+
+      <!-- 실시간 랭킹 -->
+
+      <!-- 내가 원하는 주식 찾기 -->
+
+      <!-- 요즘 돈이 몰리는 국내 테마 -->
+
+      <!-- 쉽게읽는 투자정보  -->
+
+      <!-- ETF TOP5 -->
+
+      <!-- 국내 투자고수의 Pick -->
+    </div>
+  </div>
 </template>
 
 <style></style>
