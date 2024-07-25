@@ -7,15 +7,17 @@ type Tab = {
 type Tabs = Tab[];
 type TabId = Tab["id"];
 
+interface Props {
+  tabs: Tabs;
+  styleId?: "default" | "boxed";
+}
+
 const activeTabId = defineModel<TabId>({
   required: true,
 });
 
-const props = defineProps({
-  tabs: {
-    type: Array as PropType<Tabs>,
-    required: true,
-  },
+const props = withDefaults(defineProps<Props>(), {
+  styleId: "default",
 });
 
 const activeTab = computed(() => props.tabs.find((tab) => tab.id === activeTabId.value));
@@ -46,7 +48,7 @@ const isComponent = (value: Tab["content"]) => {
 </script>
 
 <template>
-  <div class="tab">
+  <div :class="`tab-${props.styleId}`">
     <ul class="tab-header">
       <li
         v-for="tab in props.tabs"
@@ -58,54 +60,21 @@ const isComponent = (value: Tab["content"]) => {
         <button @click="changeTab(tab.id)">{{ tab.title }}</button>
       </li>
     </ul>
-    <div class="tab-content">
-      <slot :name="activeTabId">
-        <template v-if="isComponent(activeTab?.content)">
+    <slot :name="activeTabId">
+      <template v-if="isComponent(activeTab?.content)">
+        <div class="tab-content">
           <component :is="activeTab?.content" />
-        </template>
-      </slot>
-    </div>
+        </div>
+      </template>
+    </slot>
   </div>
 </template>
 
 <style scoped lang="scss">
-$default-color: #7d7e85;
-$active-color: var(--main-color);
+@import "./default.module.scss";
+@import "./boxed.module.scss";
 
-$--brd_type03: #303038;
-
-.tab {
-  ul.tab-header {
-    display: flex;
-    li {
-      flex: 1;
-
-      button {
-        margin: 0;
-        padding: 0;
-        background-color: transparent;
-        border: none;
-
-        width: 100%;
-        padding: 1.2rem 0;
-        font-size: 1.4rem;
-        font-weight: 600;
-        line-height: 1.6rem;
-        color: $default-color;
-        border-bottom: 0.1rem solid $--brd_type03;
-        cursor: pointer;
-      }
-
-      &.active {
-        button {
-          color: $active-color;
-          border-color: $active-color;
-        }
-      }
-    }
-  }
-  .tab-content {
-    margin-top: 1rem;
-  }
+.tab-content {
+  margin-top: 1rem;
 }
 </style>

@@ -1,0 +1,37 @@
+$default-color: #7d7e85;
+$active-color: var(--main-color);
+
+$--brd_type03: #303038;
+
+.tab-default {
+  ul.tab-header {
+    display: flex;
+    li {
+      flex: 1;
+
+      button {
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+
+        width: 100%;
+        padding: 1.2rem 0;
+        font-size: 1.4rem;
+        font-weight: 600;
+        line-height: 1.6rem;
+        color: $default-color;
+        border-bottom: 0.1rem solid $--brd_type03;
+        white-space: nowrap;
+        cursor: pointer;
+      }
+
+      &.active {
+        button {
+          color: $active-color;
+          border-color: $active-color;
+        }
+      }
+    }
+  }
+}
