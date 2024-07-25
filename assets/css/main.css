@@ -12,8 +12,62 @@ html {
   font-size: 10px;
 }
 
+/* scrollbar */
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: auto;
+}
+
+html::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+
+*::-webkit-scrollbar {
+  opacity: 0;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.3);
+}
+
+*::-webkit-scrollbar-button {
+  display: none;
+}
+
+*::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 0%, 0);
+}
+
+*::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10rem;
+}
+
+*:hover::-webkit-scrollbar,
+*:hover::-webkit-scrollbar-thumb {
+  opacity: 1;
+}
+
+*:hover::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.3);
+}
+
 body {
   font-family: "Pretendard";
+  color: var(--text_primary);
+  overscroll-behavior-y: none;
+  background: var(--bg_type18);
 }
 
 button {

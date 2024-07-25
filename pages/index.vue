@@ -20,6 +20,7 @@ const activeTabId = ref<string>("domestic");
       <PageHomeDomesticOverseasTab v-model="activeTabId" />
       <!-- 변경된 탭 컨텐츠 -->
       <div>
+        asdbnjkasdasjkdn
         <!-- 주요지수 -->
 
         <!-- 뉴스 -->
