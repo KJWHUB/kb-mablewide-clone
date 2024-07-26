@@ -18,7 +18,6 @@ const tabsContainerStyle: CSSProperties = reactive({
 
 onMounted(() => {
   if (tabsWrapRef.value) {
-    console.log(tabsWrapRef.value.clientHeight);
     tabsContainerStyle.height = `${tabsWrapRef.value.clientHeight}px`;
   }
 });

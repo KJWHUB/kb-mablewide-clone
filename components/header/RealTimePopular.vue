@@ -20,8 +20,6 @@ const fetchList = async () => {
     method: "GET",
   });
 
-  console.log("a", toRaw(res.data));
-
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const createList = (list: any[]) => {
     return list.map((item, i) => {
