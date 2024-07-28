@@ -8,8 +8,6 @@ const CARD_TYPES: Record<string, CardTypes> = {
   NO_CHANGE: "no-change",
 };
 
-const containerRef = ref<HTMLElement | null>(null);
-
 const majorIndices = ref<MajorIndicesResponse>([]);
 
 const fetchMajorIndices = async () => {
@@ -49,7 +47,7 @@ fetchMajorIndices();
 </script>
 
 <template>
-  <div ref="containerRef" class="major-indices">
+  <div class="major-indices">
     <ClientOnly>
       <Swiper
         ref="swiperRef"
@@ -57,11 +55,11 @@ fetchMajorIndices();
         :loop="true"
         :autoplay="{
           delay: 1500,
-          disableOnInteraction: false,
         }"
+        :speed="1000"
         :slides-per-view="5"
         :space-between="24"
-        style="width: 158rem"
+        style="width: 100%"
       >
         <template v-for="(item, i) in majorIndices" :key="item.MARKET + i">
           <SwiperSlide>
@@ -95,6 +93,7 @@ fetchMajorIndices();
 <style scoped lang="scss">
 .major-indices {
   position: relative;
+  width: 100%;
 
   .major-card {
     position: relative;
@@ -179,8 +178,8 @@ fetchMajorIndices();
   .swiper {
     .swiper-wrapper {
       .swiper-slide {
-        flex-shrink: 0 !important;
-        width: 24.2rem !important;
+        // flex-shrink: 0 !important;
+        // width: 24.2rem !important;
       }
     }
   }
