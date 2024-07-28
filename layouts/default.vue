@@ -17,7 +17,7 @@
 
 <style scoped lang="scss">
 $sidebar-width: 8rem;
-$header-height: 5.2rem;
+$header-height: 5.6rem;
 
 $border-color: #151419;
 
@@ -36,7 +36,6 @@ $content-border: 4px solid $border-color;
 
   .sidebar {
     grid-area: sidebar;
-    // background-color: #1d4c1f;
     position: fixed;
     top: 0;
     left: 0;
@@ -47,22 +46,23 @@ $content-border: 4px solid $border-color;
 
   .header {
     grid-area: header;
-    background-color: #d77;
     position: fixed;
     top: 0;
     left: $sidebar-width;
     right: 0;
+
+    border-bottom: $content-border;
 
     z-index: 100;
   }
 
   .content {
     grid-area: content;
-    background-color: #77d;
     overflow-y: auto;
-    height: 100vh;
+    min-height: 100vh;
 
-    border-top: $content-border;
+    background-color: var(--bg_type16);
+
     border-left: $content-border;
   }
 }
