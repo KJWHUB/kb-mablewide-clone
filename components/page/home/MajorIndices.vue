@@ -53,11 +53,12 @@ fetchMajorIndices();
         ref="swiperRef"
         :modules="[SwiperAutoplay]"
         :loop="true"
+        :looped-slides="6"
         :autoplay="{
           delay: 1500,
         }"
         :speed="1000"
-        :slides-per-view="5"
+        :slides-per-view="6"
         :space-between="24"
         style="width: 100%"
       >
@@ -81,7 +82,9 @@ fetchMajorIndices();
                   <span>{{ rateFormat(item.IDX_DATA.bdyCmprRP2) }}</span>
                 </p>
               </div>
-              <div class="graph" />
+
+              <!-- chart -->
+              <ChartHomeMajor />
             </div>
           </SwiperSlide>
         </template>
@@ -128,9 +131,6 @@ fetchMajorIndices();
         margin-top: 0.5rem;
         font-size: 1.4rem;
       }
-    }
-    .graph {
-      width: 6rem;
     }
 
     &::before {

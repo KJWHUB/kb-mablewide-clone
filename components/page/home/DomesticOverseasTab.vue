@@ -44,7 +44,7 @@ onMounted(() => {
 .tabs-container {
   position: relative;
   width: 100%;
-  z-index: 100;
+  z-index: 10;
 }
 .tabs-wrap {
   position: fixed;
