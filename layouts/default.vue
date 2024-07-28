@@ -6,6 +6,7 @@
     <DefaultLayoutAppSidebar class="sidebar" />
     <!-- header -->
     <DefaultLayoutAppHeader class="header" />
+    <!-- content -->
     <main class="content">
       <slot />
     </main>
@@ -58,8 +59,10 @@ $content-border: 4px solid $border-color;
 
   .content {
     grid-area: content;
-    overflow-y: auto;
     min-height: 100vh;
+    padding: 0 2.4rem;
+    overflow-y: auto;
+    overflow-x: hidden;
 
     background-color: var(--bg_type16);
 

@@ -10,39 +10,65 @@ const activeTabId = ref<string>("domestic");
 <template>
   <div>
     <!-- banner -->
-    <div v-if="bannerVisible" style="height: 4.5rem">
-      <BannerMain @close="bannerClose" />
-    </div>
+    <BannerMain v-if="bannerVisible" @close="bannerClose" />
 
     <!-- container -->
-    <div class="container">
-      <!-- 국내/해외 탭영역 -->
-      <PageHomeDomesticOverseasTab v-model="activeTabId" />
-      <!-- 변경된 탭 컨텐츠 -->
-      <div>
-        <!-- 주요지수 -->
-        <PageHomeMajorIndices />
+    <div
+      class="container"
+      :class="{
+        'top-banner-active': bannerVisible,
+      }"
+    >
+      <article class="inner">
+        <!-- 국내/해외 탭영역 -->
+        <PageHomeDomesticOverseasTab v-model="activeTabId" />
+        <!-- 변경된 탭 컨텐츠 -->
+        <div>
+          <!-- 주요지수 -->
+          <PageHomeMajorIndices />
 
-        <!-- 뉴스 -->
+          <!-- 뉴스 -->
 
-        <!-- 실시간 랭킹 -->
+          <!-- 실시간 랭킹 -->
 
-        <!-- 내가 원하는 주식 찾기 -->
+          <!-- 내가 원하는 주식 찾기 -->
 
-        <!-- 요즘 돈이 몰리는 국내 테마 -->
+          <!-- 요즘 돈이 몰리는 국내 테마 -->
 
-        <!-- 쉽게읽는 투자정보  -->
+          <!-- 쉽게읽는 투자정보  -->
 
-        <!-- ETF TOP5 -->
+          <!-- ETF TOP5 -->
 
-        <!-- 국내 투자고수의 Pick -->
-      </div>
+          <!-- 국내 투자고수의 Pick -->
+        </div>
+      </article>
     </div>
   </div>
 </template>
 
-<style>
+<style scoped lang="scss">
 .container {
-  padding: 0 2.4rem;
+  display: grid;
+  grid-template-areas: "stock-content";
+  grid-template-columns: 1fr;
+  justify-content: center;
+  gap: 0;
+  position: relative;
+  max-width: 153.6rem;
+  margin: 0 auto;
+  margin-top: 0.4rem;
+
+  article.inner {
+    position: relative;
+    display: block;
+    grid-area: stock-content;
+    width: 100%;
+    min-height: 127.6rem;
+    overflow: hidden;
+  }
+
+  &.top-banner-active {
+    margin-top: 4.5rem;
+  }
 }
 </style>

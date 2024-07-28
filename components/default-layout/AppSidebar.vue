@@ -74,6 +74,8 @@ $sidebar-padding-x: 1.6rem;
   flex-direction: column;
   align-items: center;
   padding: 1rem 0 4rem;
+  width: 100%;
+  height: 100%;
 
   background: var(--bg_type16);
 

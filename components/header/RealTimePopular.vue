@@ -48,7 +48,7 @@ const slideChange = (swiper: Swiper) => {
 
 <template>
   <div class="real-time-popular">
-    <strong class="title">실시간 인기</strong>
+    <strong class="title">실시간인기</strong>
 
     <div class="status-badge-wrap">
       <span class="status-badge">{{ statusLabel }}</span>
@@ -86,7 +86,7 @@ const slideChange = (swiper: Swiper) => {
   .title {
     color: var(--text_brand);
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 3.2rem;
   }
 

@@ -28,7 +28,12 @@ const content = ref<string>("D-40 까지 국내 수수료 완전 무료");
 <style scoped lang="scss">
 .banner-wrap {
   position: fixed;
+  top: 5.6rem;
+  left: 8.4rem;
+
   width: calc(100% - 8.4rem);
+  height: 4.4rem;
+  z-index: 99;
 }
 
 .banner {
@@ -37,7 +42,8 @@ const content = ref<string>("D-40 까지 국내 수수료 완전 무료");
   justify-content: center;
   align-items: center;
   flex: 1;
-  height: 4.5rem;
+  width: 100%;
+  height: 100%;
 
   color: #fff;
 
