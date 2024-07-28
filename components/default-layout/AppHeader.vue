@@ -1,53 +1,39 @@
 <script setup lang="ts"></script>
 
 <template>
-  <header class="header">
-    <!-- search -->
-    <HeaderSearch />
-    <!-- Real-time popularity -->
-    <HeaderRealTimePopular />
-    <div style="display: flex; gap: 1.6rem">
-      <!-- download -->
-      <HeaderDownload />
-      <!-- notice -->
-      <HeaderNotice />
-
-      <div class="right">
-        <!-- login -->
-        <HeaderLogin />
-        <!-- app info -->
-        <HeaderAppInfo />
-      </div>
+  <header>
+    <div class="wrap">
+      <!-- search -->
+      <HeaderSearch class="search" />
+      <!-- Real-time popularity -->
+      <HeaderRealTimePopular class="realtime" />
+      <!-- utility -->
+      <HeaderUtility class="utility" />
     </div>
   </header>
 </template>
 
 <style scoped lang="scss">
-.header {
-  display: flex;
+.wrap {
   gap: 1.2rem;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
+  display: grid;
+  grid-template-areas: "search realtime utility";
+  grid-template-columns: 20rem 1fr auto;
+  height: 5.2rem;
   padding: 1rem 1.6rem;
-  background-color: var(--background-color);
-}
-.right {
   position: relative;
-  display: flex;
-  gap: 0.8rem;
-  align-items: center;
-  padding-left: 0.9rem;
+  // background-color: var(--background-color);
 
-  &::before {
-    content: "";
-    display: block;
-    width: 0.1rem;
-    height: 2.4rem;
-    background: var(--brd_type04);
-    position: absolute;
-    top: calc(50% - 1.2rem);
-    left: 0;
+  .search {
+    grid-area: search;
+  }
+
+  .realtime {
+    grid-area: realtime;
+  }
+
+  .utility {
+    grid-area: utility;
   }
 }
 </style>

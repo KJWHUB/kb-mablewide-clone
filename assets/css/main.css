@@ -77,6 +77,10 @@ button {
 }
 
 /* custom */
+* {
+  box-sizing: border-box;
+}
+
 .hover:hover {
   background: var(--hover);
   border-radius: 0.4rem;
