@@ -33,33 +33,35 @@ const checkActive = (path: string) => (isActive(path) ? "var(--text-color)" : un
 </script>
 
 <template>
-  <aside class="main-layout-sidebar">
-    <!-- logo -->
-    <h1 class="logo sidebar-row-padding">
-      <SvgoMLogo />
-    </h1>
+  <aside>
+    <div class="main-layout-sidebar">
+      <!-- logo -->
+      <h1 class="logo sidebar-row-padding">
+        <SvgoMLogo />
+      </h1>
 
-    <nav class="main-nav icon-list-wrap">
-      <template v-for="item in main" :key="item.id">
-        <RouterLink :to="item.path">
-          <SidebarIconWrap :item="item">
-            <component :is="item.id" :style="{ color: checkActive(item.path) }" />
-          </SidebarIconWrap>
-        </RouterLink>
-      </template>
-    </nav>
+      <nav class="main-nav icon-list-wrap">
+        <template v-for="item in main" :key="item.id">
+          <RouterLink :to="item.path">
+            <SidebarIconWrap :item="item">
+              <component :is="item.id" :style="{ color: checkActive(item.path) }" />
+            </SidebarIconWrap>
+          </RouterLink>
+        </template>
+      </nav>
 
-    <!-- settings -->
-    <div class="settings icon-list-wrap">
-      <SidebarThemeController />
-      <SidebarIconWrap :item="{ id: 'SvgoSidebarSetting', tooltip: '설정' }">
-        <SvgoSidebarSetting @click="$modal.open('LOGIN')" />
-      </SidebarIconWrap>
-    </div>
+      <!-- settings -->
+      <div class="settings icon-list-wrap">
+        <SidebarThemeController />
+        <SidebarIconWrap :item="{ id: 'SvgoSidebarSetting', tooltip: '설정' }">
+          <SvgoSidebarSetting @click="$modal.open('LOGIN')" />
+        </SidebarIconWrap>
+      </div>
 
-    <!-- menu expand -->
-    <div class="menu-expand">
-      <SidebarMenuExpand />
+      <!-- menu expand -->
+      <div class="menu-expand">
+        <SidebarMenuExpand />
+      </div>
     </div>
   </aside>
 </template>

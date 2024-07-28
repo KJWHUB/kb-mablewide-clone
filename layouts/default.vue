@@ -50,8 +50,8 @@ $content-border: 4px solid $border-color;
     background-color: #d77;
     position: fixed;
     top: 0;
-    right: 0;
     left: $sidebar-width;
+    right: 0;
 
     z-index: 100;
   }
