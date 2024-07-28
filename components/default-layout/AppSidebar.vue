@@ -90,7 +90,7 @@ $sidebar-padding-x: 1.6rem;
   }
 
   .settings {
-    flex: 0.25;
+    flex: 0.2;
     width: 100%;
   }
 
