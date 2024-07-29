@@ -26,7 +26,6 @@ onMounted(() => {
   }
 
   if (tabsContainerRef.value) {
-    console.log("asdasd", tabsContainerRef.value.clientWidth);
     tabsWrapStyle.width = `${tabsContainerRef.value.clientWidth}px`;
   }
 });
