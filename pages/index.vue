@@ -25,9 +25,14 @@ const activeTabId = ref<string>("domestic");
         <!-- 변경된 탭 컨텐츠 -->
         <div>
           <!-- 주요지수 -->
-          <PageHomeMajorIndices />
+          <section>
+            <PageHomeMajorIndices />
+          </section>
 
           <!-- 뉴스 -->
+          <section class="home-section">
+            <PageHomeNews />
+          </section>
 
           <!-- 실시간 랭킹 -->
 
@@ -65,6 +70,10 @@ const activeTabId = ref<string>("domestic");
     width: 100%;
     min-height: 127.6rem;
     overflow: hidden;
+
+    .home-section {
+      margin-top: 6rem;
+    }
   }
 
   &.top-banner-active {
