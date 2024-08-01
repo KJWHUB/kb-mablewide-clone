@@ -9,7 +9,7 @@ type TabId = Tab["id"];
 
 interface Props {
   tabs: Tabs;
-  styleId?: "default" | "boxed";
+  styleId?: "default" | "boxed" | "text-divider";
 }
 
 const activeTabId = defineModel<TabId>({
@@ -73,6 +73,7 @@ const isComponent = (value: Tab["content"]) => {
 <style scoped lang="scss">
 @import "./default.module.scss";
 @import "./boxed.module.scss";
+@import "./text-divider.module.scss";
 
 .tab-content {
   margin-top: 1rem;

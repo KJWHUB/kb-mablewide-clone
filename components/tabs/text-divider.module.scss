@@ -1,0 +1,44 @@
+.tab-text-divider {
+  ul.tab-header {
+    display: flex;
+    gap: 2.5rem;
+    li {
+      flex: 1;
+
+      button {
+        position: relative;
+        white-space: nowrap;
+        display: inline-block;
+        color: var(--tab_type02_tx_default);
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        cursor: pointer;
+
+        transition: color 0.2s;
+
+        &::before {
+          content: "";
+          display: block;
+          width: 0.1rem;
+          height: 1.2rem;
+          position: absolute;
+          left: -1.25rem; // gap의 절반 위치로 조정
+
+          top: calc(50% - 0.6rem);
+          background: var(--brd_type03);
+        }
+      }
+
+      &:first-child button::before {
+        display: none;
+      }
+
+      &.active {
+        button {
+          color: var(--tab_primary_tx_select);
+        }
+      }
+    }
+  }
+}
