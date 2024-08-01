@@ -1814,5 +1814,550 @@
         ]
       }
     }
-  ]
+  ],
+  "NEWS": {
+    "HEADLINE": {
+      "ROWS": [
+        {
+          "date": "20240801",
+          "display_title": "저녁 (19:00~24:00)",
+          "order": 5,
+          "news": [
+            {
+              "id": "202408011911502501",
+              "title": "연준 '9월 피벗 가능성' 못 박았다",
+              "date": "2024-08-01 19:11:50",
+              "publisher": "서울경제",
+              "publisher_code": "25",
+              "info_type": "news",
+              "likes": 0,
+              "views": 93,
+              "tags": ["경제", "시황"],
+              "keywords": ["금리", "인하", "파월"],
+              "key_sentences": [
+                "[美, 8연속 금리 동결]인플레 둔화·성장 유지 등 조건\"기준금리 인하 논의\" 공식 시사美국채 10년물 4%대까지 하락",
+                "제롬 파월 미국 연방준비제도(Fed·연준) 의장이 9월 금리 인하 가능성을 공식 시사했다.",
+                "파월 의장은 기준금리를 인하할 수 있는 기준에 대해 △인플레이션 둔화 유지 또는 강화 △경제성장세 유지 △노동시장 완화 추세 지속 등 세 가지를 꼽았다.",
+                "미국 2년 만기 국채 수익률은 10.3bp(bp=0.01%포인트) 하락한 4.29%, 10년물 금리는 10.4bp 내린 4.058%를 기록했다."
+              ],
+              "country_code": "KR",
+              "publisher_image": "https://mablewide.kbsec.com/images/logos/media-25.png",
+              "image": "https://newsimg.sedaily.com/2024/08/01/2DCUK5PERA_5.jpg",
+              "stocks": [],
+              "created_at": "2024-08-01 19:12:49",
+              "rank": 1,
+              "related_news": 136
+            },
+            {
+              "id": "202408012116315601",
+              "title": "페라리, 예상보다 양호한 2분기 실적 발표 후 주가 상승",
+              "date": "2024-08-01 21:16:31",
+              "publisher": "벤징가",
+              "publisher_code": "56",
+              "info_type": "news",
+              "likes": 0,
+              "views": 3,
+              "tags": [],
+              "keywords": ["BEN", "COM", "ZINGA"],
+              "key_sentences": [],
+              "country_code": "KR",
+              "publisher_image": "https://mablewide.kbsec.com/images/logos/media-56.png",
+              "image": "https://mablewide.kbsec.com/images/logos/media-56.png",
+              "stocks": [],
+              "created_at": "2024-08-01 21:21:51",
+              "rank": 2,
+              "related_news": 125
+            },
+            {
+              "id": "202408011944005304",
+              "title": "DJ 연준, 9월 금리 인하 가능성 시사. 그 다음은? -- Barrons.com -2-",
+              "date": "2024-08-01 19:44:00",
+              "publisher": "바론스",
+              "publisher_code": "53",
+              "info_type": "news",
+              "likes": 0,
+              "views": 0,
+              "tags": [],
+              "keywords": ["THE", "AND", "IN"],
+              "key_sentences": [
+                "Federal Reserve Chair Jerome Powell raised investors' hopes for interest rates to move lower, saying at a press conference that while the central bank's policymakers didn't lower rates on Wednesday, a rate cut could be on the table as soon as the next meeting in September. \n   -- Despite having said policymakers intend to start cutting rates before \n      inflation declines to 2%, Powell stressed on Wednesday that the Federal \n      Open Market Committee has made no decisions about future meetings. He \n      refused to rule out the possibility that there would be no cuts this \n      year.",
+                "What's Next: The Fed gets another dose of economic data to factor into its September decision this Friday, with the jobs report for July. About 87% of futures traders anticipate a quarter-point rate cut at the Sept. 17-18 meeting, and 12.5% see a half-point cut, according to the CME FedWatch Tool.",
+                "Meta Platforms beat expectations and offered a stronger-than-forecast outlook as it continues to focus on artificial intelligence-fueled projects. It sees its AI assistant the most used in the world within the near future. It added users to its platforms, including Instagram and Facebook, and ad sales jumped. \n   -- Ad sales have surged as advertisers shift their budgets from broadcast \n      television to the social-media platform, with 3.3 billion users. CFO \n      Susan Li said Meta was getting better at targeting and serving ads. New \n      tools improved return on ad spending by 22% in the U.S., she said.",
+                "High-profile Investor Bill Ackman is rethinking the structure of a planned initial public offering of a new fund that was expected to mimic his main investment portfolio. He withdrew the IPO plans for the new fund, Pershing Square USA, after weak investor interest after twice slashing the offering's size. \n   -- The IPO had been expected to price in the coming days after a delay. The \n      deal was cut to $2 billion, according to a regulatory filing Tuesday, \n      half the high end of the range disclosed last week and down from the $25 \n      billion that Ackman originally planned.",
+                "-- The issue was its nature as a closed-end fund, which sells a fixed number \n      of shares to investors and tends to trade at a discount to its portfolio \n      value. That reduces the incentive to buy the IPO, and encourages people \n      to wait for the shares to start trading to invest."
+              ],
+              "country_code": "KR",
+              "publisher_image": "https://mablewide.kbsec.com/images/logos/media-53.png",
+              "image": "https://mablewide.kbsec.com/images/logos/media-53.png",
+              "stocks": [],
+              "created_at": "2024-08-01 19:44:59",
+              "rank": 3,
+              "related_news": 113
+            },
+            {
+              "id": "202408011910372501",
+              "title": "한풀 꺾인 달러 강세···\"1300원대 초반까지 하락 전망\"",
+              "date": "2024-08-01 19:10:37",
+              "publisher": "서울경제",
+              "publisher_code": "25",
+              "info_type": "news",
+              "likes": 0,
+              "views": 45,
+              "tags": ["시황", "경제"],
+              "keywords": ["미국", "금리", "원화"],
+              "key_sentences": [
+                "['9월 피벗 논의' 못박은 美]원·달러 환율 2개월만에 1360원대美보다 금리인하 늦어 더 떨어질듯국고채금리도 3일만에 연저점 경신미국의 기준금리 인하 신호에 원·달러 환율이 2개월 만에 1360원대로 떨어졌다.",
+                "올 초부터 이어졌던 ‘달러 강세’ 현상이 누그러지며 원·달러 환율은 1300원대 초반까지 하락할 가능성이 있을 것으로 전망됐다.",
+                "환율이 1360원대로 하락한 것은 6월 7일(1365.3원) 이후 약 2개월 만이다.",
+                "전날 일본은행의 금리 인상으로 엔·달러 환율은 이날 140엔대까지 하락했다."
+              ],
+              "country_code": "KR",
+              "publisher_image": "https://mablewide.kbsec.com/images/logos/media-25.png",
+              "image": "https://newsimg.sedaily.com/2024/08/01/2DCUKM5EQK_3.jpg",
+              "stocks": [],
+              "created_at": "2024-08-01 19:11:48",
+              "rank": 4,
+              "related_news": 61
+            },
+            {
+              "id": "202408012155005002",
+              "title": "DJ 미국 일자리 시장 완화 신호에 국채 수익률 하락 -- 마켓톡",
+              "date": "2024-08-01 21:55:00",
+              "publisher": "다우존스",
+              "publisher_code": "50",
+              "info_type": "news",
+              "likes": 0,
+              "views": 0,
+              "tags": ["경제"],
+              "keywords": ["FED", "IN", "AN"],
+              "key_sentences": [
+                "0855 ET - 미국 주간 실업수당 신청 건수가 235,000건에서 예상치 못하게 249,000건으로 증가하면서 국채 수익률이 급락했습니다.",
+                "이 기사는 인공지능(AI)을 사용하여 영문 원본에서 한국어로 자동 번역된 것입니다.",
+                "(END) Dow Jones Newswires"
+              ],
+              "country_code": "KR",
+              "publisher_image": "https://mablewide.kbsec.com/images/logos/media-50.png",
+              "image": "https://mablewide.kbsec.com/images/logos/media-50.png",
+              "stocks": [],
+              "created_at": "2024-08-01 21:55:48",
+              "rank": 5,
+              "related_news": 15
+            },
+            {
+              "id": "202408012120562101",
+              "title": "LGD, 中 광저우 공장 매각 속도… CSOT와 협상",
+              "date": "2024-08-01 21:20:56",
+              "publisher": "파이낸셜뉴스",
+              "publisher_code": "21",
+              "info_type": "news",
+              "likes": 0,
+              "views": 9,
+              "tags": ["산업", "테크", "투자"],
+              "keywords": ["LCD", "중국", "LG디스플레이"],
+              "key_sentences": [
+                "LG디스플레이는 1일 \"LCD에서 OLED 중심의 사업구조로 전환해 가고 있어 중국 광저우 공장 등 LCD 자산의 전략적 활용에 대한 다양한 검토를 했다\"며 \"광저우 LCD 생산법인의 지분매각 우선협상대상자로 TCL의 CSOT를 선정해 배타적인 협상을 진행할 예정\"이라고 밝혔다.",
+                "LG디스플레이는 현지 업체들과 지속적으로 광저우 LCD 공장 매각협상을 벌여왔다."
+              ],
+              "country_code": "KR",
+              "publisher_image": "https://mablewide.kbsec.com/images/logos/media-21.png",
+              "image": "https://mablewide.kbsec.com/images/logos/media-21.png",
+              "stocks": [
+                {
+                  "code": "034220",
+                  "name": "LG디스플레이",
+                  "exchange_code": "KRX",
+                  "fluctuation_rate": 3.83,
+                  "market_type": "KOSPI",
+                  "country_code": "KR",
+                  "image": "https://cdn.kbsec.com/logo/KR_034220.png",
+                  "image_path": "https://cdn.kbsec.com/logo/KR_034220.png",
+                  "description": "TFT-LCD 및 OLED 제품의 생산 및 판매기업"
+                }
+              ],
+              "created_at": "2024-08-01 21:21:52",
+              "rank": 6,
+              "related_news": 14
+            }
+          ]
+        }
+      ]
+    },
+    "ECONOMY": {
+      "ROWS": [
+        {
+          "id": "202408012210360501",
+          "title": "美 주간 신규 실업보험 청구자수 24만9천명…전주比 1.4만명↑(상보)",
+          "date": "2024-08-01 22:10:36",
+          "publisher": "연합뉴스",
+          "publisher_code": "05",
+          "info_type": "news",
+          "likes": 0,
+          "views": 0,
+          "tags": ["트렌드", "코로나", "경제", "속보"],
+          "keywords": ["보험", "실업", "청구"],
+          "key_sentences": [
+            "직전주보다 1만4천명 증가한 수치다.",
+            "이는 직전주보다 1만4천명 증가한 수치다.",
+            "지난달 20일로 끝난 일주일간 연속 실업보험 청구자 수는 187만7천명을 기록하며 직전주보다 3만3천명 증가했다."
+          ],
+          "country_code": "KR",
+          "publisher_image": "https://mablewide.kbsec.com/images/logos/media-05.png",
+          "image": "https://mablewide.kbsec.com/images/logos/media-05.png",
+          "stocks": [],
+          "created_at": "2024-08-01 22:11:53",
+          "related_news": 0
+        },
+        {
+          "id": "202408012159262501",
+          "title": "[속보]美 실업수당 청구 24.9만건···전망치 상회",
+          "date": "2024-08-01 21:59:26",
+          "publisher": "서울경제",
+          "publisher_code": "25",
+          "info_type": "news",
+          "likes": 0,
+          "views": 2,
+          "tags": ["트렌드", "경제", "시황", "속보"],
+          "keywords": ["청구", "실업", "수당"],
+          "key_sentences": ["신규 실업수당 청구 건수는 지난 5월 25일 이후 11주 연속 22만 건을 상회하고 있다."],
+          "country_code": "KR",
+          "publisher_image": "https://mablewide.kbsec.com/images/logos/media-25.png",
+          "image": "https://newsimg.sedaily.com/2024/08/01/2DCUKXBGG1_2.jpg",
+          "stocks": [],
+          "created_at": "2024-08-01 22:00:49",
+          "related_news": 4
+        },
+        {
+          "id": "202408012154140501",
+          "title": "파운드, 영국 금리 인하 속 거의 한 달만 최약세",
+          "date": "2024-08-01 21:54:14",
+          "publisher": "연합뉴스",
+          "publisher_code": "05",
+          "info_type": "news",
+          "likes": 0,
+          "views": 0,
+          "tags": ["시황", "경제", "글로벌"],
+          "keywords": ["금리", "BOE", "영국"],
+          "key_sentences": [
+            "파운드, 영국 금리 인하 속 거의 한 달만 최약세\n영국 국채 길트 금리, 하락세",
+            "영국의 국채인 길트의 금리는 하락했다.",
+            "영국 국채 길트의 금리도 하락세를 나타냈다."
+          ],
+          "country_code": "KR",
+          "publisher_image": "https://mablewide.kbsec.com/images/logos/media-05.png",
+          "image": "https://mablewide.kbsec.com/images/logos/media-05.png",
+          "stocks": [],
+          "created_at": "2024-08-01 21:54:47",
+          "related_news": 15
+        },
+        {
+          "id": "202408012154051501",
+          "title": "美 지난주 신규 실업수당 청구 24.9만건…1년 만에 최고",
+          "date": "2024-08-01 21:54:05",
+          "publisher": "아시아경제",
+          "publisher_code": "15",
+          "info_type": "news",
+          "likes": 0,
+          "views": 0,
+          "tags": ["경제", "시황", "트렌드"],
+          "keywords": ["고용", "미국", "FED"],
+          "key_sentences": [
+            "지난주 미국의 신규 실업수당 청구 건수가 시장 예상을 웃돌며 약 1년 만에 최고치를 기록했다.",
+            "1일(현지시간) 미국 노동부에 따르면 지난주(7월21~27일) 신규 실업수당 청구 건수는 24만9000건으로 집계됐다."
+          ],
+          "country_code": "KR",
+          "publisher_image": "https://mablewide.kbsec.com/images/logos/media-15.png",
+          "image": "https://cphoto.asiae.co.kr/listimg_link.php?idx=2&no=2024070321543739203_1720011277.jpg",
+          "stocks": [],
+          "created_at": "2024-08-01 21:54:48",
+          "related_news": 4
+        },
+        {
+          "id": "202408012149250501",
+          "title": "美 주간 신규 실업수당 청구 24만9천건…1년 만에 최대",
+          "date": "2024-08-01 21:49:25",
+          "publisher": "연합뉴스",
+          "publisher_code": "05",
+          "info_type": "news",
+          "likes": 0,
+          "views": 0,
+          "tags": ["경제", "글로벌", "트렌드", "시황"],
+          "keywords": ["실업", "증가", "건수"],
+          "key_sentences": [
+            "美 주간 신규 실업수당 청구 24만9천건…1년 만에 최대\n2주 이상 계속 실업수당 청구는 2년 8개월만에 최다",
+            "2주 이상 실업수당을 신청한 '계속 실업수당' 청구 건수는 7월 14∼20일 주간 187만7천건으로 직전 주보다 3만3천건 늘었다."
+          ],
+          "country_code": "KR",
+          "publisher_image": "https://mablewide.kbsec.com/images/logos/media-05.png",
+          "image": "https://mablewide.kbsec.com/images/logos/media-05.png",
+          "stocks": [],
+          "created_at": "2024-08-01 21:50:40",
+          "related_news": 4
+        },
+        {
+          "id": "202408012148352501",
+          "title": "연준 \"고용 냉각 더는 안돼\"···내년 1월까지 '4연속 인하' 관측도",
+          "date": "2024-08-01 21:48:35",
+          "publisher": "서울경제",
+          "publisher_code": "25",
+          "info_type": "news",
+          "likes": 0,
+          "views": 1,
+          "tags": ["경제", "시황"],
+          "keywords": ["금리", "인하", "연준"],
+          "key_sentences": [
+            "['9월 피벗 논의' 못박은 美]◆     파월, 구체적 인하 시점 첫 언급'인플레 2%' 목표까지 둔화 확신\"금리인하 가까워져\" 수차례 강조7월 회의때 인하 논의 공개하기도실업수당청구 24.9만, 전망치 상회이달 잭슨홀미팅서 구체화 전망英, 0.25%P 인하···팬데믹 이후 처음 \n7월 31일(현지 시간) 미국 연방공개시장위원회(FOMC)를 앞두고 시장의 관심은 금리 인하 여부보다는 연방준비제도(Fed·연준)가 9월 금리 인하에 대한 확실한 신호를 줄 것인지에 쏠렸다.",
+            "제롬 파월 연준 의장은 이날 기자회견에서 명확한 금리 인하 신호를 보냈다.",
+            "파월 의장은 “이르면 9월 회의에서 기준금리 인하에 대해 논의할 것”이라며 “위원회의 대체적인 인식은 정책금리 인하 시점이 가까워지고 있다는 것”이라고 여러 차례 강조했다.",
+            "파월 의장은 7월 회의에서도 금리 인하에 대한 논의가 일부 있었다고 밝혔다.",
+            "시장은 9월 금리 인하를 시작해 내년 1월까지 총 네 번의 회의마다 0.25%포인트씩 금리를 인하할 가능성을 가장 높게 보고 있다."
+          ],
+          "country_code": "KR",
+          "publisher_image": "https://mablewide.kbsec.com/images/logos/media-25.png",
+          "image": "https://newsimg.sedaily.com/2024/08/01/2DCUJVL2IS_11.jpg",
+          "stocks": [],
+          "created_at": "2024-08-01 21:49:52",
+          "related_news": 118
+        }
+      ]
+    },
+    "POPULAR": {
+      "ROWS": [
+        {
+          "id": "202408011911502501",
+          "title": "연준 '9월 피벗 가능성' 못 박았다",
+          "date": "2024-08-01 19:11:50",
+          "publisher": "서울경제",
+          "publisher_code": "25",
+          "info_type": "news",
+          "likes": 0,
+          "views": 93,
+          "tags": ["경제", "시황"],
+          "keywords": ["금리", "인하", "파월"],
+          "key_sentences": [
+            "[美, 8연속 금리 동결]인플레 둔화·성장 유지 등 조건\"기준금리 인하 논의\" 공식 시사美국채 10년물 4%대까지 하락",
+            "제롬 파월 미국 연방준비제도(Fed·연준) 의장이 9월 금리 인하 가능성을 공식 시사했다.",
+            "파월 의장은 기준금리를 인하할 수 있는 기준에 대해 △인플레이션 둔화 유지 또는 강화 △경제성장세 유지 △노동시장 완화 추세 지속 등 세 가지를 꼽았다.",
+            "미국 2년 만기 국채 수익률은 10.3bp(bp=0.01%포인트) 하락한 4.29%, 10년물 금리는 10.4bp 내린 4.058%를 기록했다."
+          ],
+          "country_code": "KR",
+          "publisher_image": "https://mablewide.kbsec.com/images/logos/media-25.png",
+          "image": "https://newsimg.sedaily.com/2024/08/01/2DCUK5PERA_5.jpg",
+          "stocks": [],
+          "created_at": "2024-08-01 19:12:49",
+          "related_news": 136
+        },
+        {
+          "id": "202408011910372501",
+          "title": "한풀 꺾인 달러 강세···\"1300원대 초반까지 하락 전망\"",
+          "date": "2024-08-01 19:10:37",
+          "publisher": "서울경제",
+          "publisher_code": "25",
+          "info_type": "news",
+          "likes": 0,
+          "views": 45,
+          "tags": ["시황", "경제"],
+          "keywords": ["미국", "금리", "원화"],
+          "key_sentences": [
+            "['9월 피벗 논의' 못박은 美]원·달러 환율 2개월만에 1360원대美보다 금리인하 늦어 더 떨어질듯국고채금리도 3일만에 연저점 경신미국의 기준금리 인하 신호에 원·달러 환율이 2개월 만에 1360원대로 떨어졌다.",
+            "올 초부터 이어졌던 ‘달러 강세’ 현상이 누그러지며 원·달러 환율은 1300원대 초반까지 하락할 가능성이 있을 것으로 전망됐다.",
+            "환율이 1360원대로 하락한 것은 6월 7일(1365.3원) 이후 약 2개월 만이다.",
+            "전날 일본은행의 금리 인상으로 엔·달러 환율은 이날 140엔대까지 하락했다."
+          ],
+          "country_code": "KR",
+          "publisher_image": "https://mablewide.kbsec.com/images/logos/media-25.png",
+          "image": "https://newsimg.sedaily.com/2024/08/01/2DCUKM5EQK_3.jpg",
+          "stocks": [],
+          "created_at": "2024-08-01 19:11:48",
+          "related_news": 61
+        },
+        {
+          "id": "202408011900192501",
+          "title": "[단독] 삼성, 네이버와 AI동맹 '흔들'···'마하1' 개발까지만 함께 한다",
+          "date": "2024-08-01 19:00:19",
+          "publisher": "서울경제",
+          "publisher_code": "25",
+          "info_type": "news",
+          "likes": 0,
+          "views": 36,
+          "tags": ["기술"],
+          "keywords": ["AI", "개발", "엔비디아"],
+          "key_sentences": [
+            "마하1 이후 파트너십 변화 전망새 협업기업 물색 속도 높이고회사 내부선 AI SOC팀 육성도올해 엔비디아 점유율 하락 속'웜홀' 등 글로벌 경쟁작 잇따라인공지능(AI) 가속기 개발을 위해 협력해온 삼성전자(005930)와 네이버가 ‘마하1’을 끝으로 협력에 마침표를 찍을 것으로 전망된다.",
+            "1일 업계 등에 따르면 삼성전자와 네이버는 마하1 개발을 끝으로 AI 반도체의 공동 개발을 위한 협력을 사실상 마치기로 했다.",
+            "마하 시리즈는 삼성전자가 개발하고 있는 AI 가속기다.",
+            "이 때문에 많은 반도체 회사들은 비싸면서 공급이 원활하지 않은 엔비디아 GPU를 대체할 수 있는 저렴하면서도 AI 컴퓨팅에 특화한 AI 가속기 개발에 뛰어들어 엔비디아 독점 구도를 깨뜨리려 하고 있다.",
+            "업계의 한 관계자는 “마하1은 네이버 개발 비중이 높고 만들어져도 사실상 네이버 외에는 사용하기가 쉽지 않을 칩이기에 네이버에 판매까지는 이뤄질 것으로 본다”고 말했다."
+          ],
+          "country_code": "KR",
+          "publisher_image": "https://mablewide.kbsec.com/images/logos/media-25.png",
+          "image": "https://newsimg.sedaily.com/2024/08/01/2DCUJOV417_5.jpg",
+          "stocks": [
+            {
+              "code": "005930",
+              "name": "삼성전자",
+              "exchange_code": "KRX",
+              "fluctuation_rate": -0.95,
+              "market_type": "KOSPI",
+              "country_code": "KR",
+              "image": "https://cdn.kbsec.com/logo/KR_005930.png",
+              "image_path": "https://cdn.kbsec.com/logo/KR_005930.png",
+              "description": "휴대폰, 반도체, 디스플레이패널, 가전 등을 생산하는 글로벌 IT기업"
+            }
+          ],
+          "created_at": "2024-08-01 19:00:48",
+          "related_news": 0
+        },
+        {
+          "id": "202408011731210401",
+          "title": "[이지혜의 뷰]삼성전자 12만전자가 보인다",
+          "date": "2024-08-01 17:31:21",
+          "publisher": "이데일리",
+          "publisher_code": "04",
+          "info_type": "news",
+          "likes": 0,
+          "views": 53,
+          "tags": [],
+          "keywords": ["삼성전자", "분기", "TV"],
+          "key_sentences": [
+            "[이데일리TV 이지혜 기자]삼성전자(005930) 2분기 반도체 매출이 전 세계 반도체 파운드리 1등 기업인 대만 TSMC를 넘어섰습니다.",
+            "<이지혜의 뷰>였습니다.",
+            "이지혜 기자의 앵커 브리핑 ‘이지혜의 뷰’는 이데일리TV ‘마켓나우 3부’(오후1시~2시)에 방영합니다."
+          ],
+          "country_code": "KR",
+          "publisher_image": "https://mablewide.kbsec.com/images/logos/media-04.png",
+          "image": "http://image.edaily.co.kr/images/photo/files/NP/S/2024/08/PS24080101107.jpg",
+          "stocks": [
+            {
+              "code": "005930",
+              "name": "삼성전자",
+              "exchange_code": "KRX",
+              "fluctuation_rate": -0.95,
+              "market_type": "KOSPI",
+              "country_code": "KR",
+              "image": "https://cdn.kbsec.com/logo/KR_005930.png",
+              "image_path": "https://cdn.kbsec.com/logo/KR_005930.png",
+              "description": "휴대폰, 반도체, 디스플레이패널, 가전 등을 생산하는 글로벌 IT기업"
+            }
+          ],
+          "created_at": "2024-08-01 17:32:49",
+          "related_news": 0
+        },
+        {
+          "id": "202408011716122201",
+          "title": "[급등락주 짚어보기] KBI메탈, 美 빅테크발 전선주 테마 상승에 ‘상한가’",
+          "date": "2024-08-01 17:16:12",
+          "publisher": "이투데이",
+          "publisher_code": "22",
+          "info_type": "news",
+          "likes": 0,
+          "views": 61,
+          "tags": [],
+          "keywords": ["기업", "매수세", "소식"],
+          "key_sentences": [
+            "[이투데이/정성욱 기자()]1일 유가증권시장에서 상한가와 하한가를 기록한 종목은 없었다.",
+            "코스닥시장에서는 DGP, KBI메탈, 오브젠, 퀀타매트릭스 4개 종목이 상한가를 기록했다."
+          ],
+          "country_code": "KR",
+          "publisher_image": "https://mablewide.kbsec.com/images/logos/media-22.png",
+          "image": "https://img.etoday.co.kr/pto_db/2024/08/600/20240801171538_2059268_1200_207.png",
+          "stocks": [
+            {
+              "code": "024840",
+              "name": "KBI메탈",
+              "exchange_code": "KRX",
+              "fluctuation_rate": 29.8,
+              "market_type": "KOSDAQ",
+              "country_code": "KR",
+              "image": "https://cdn.kbsec.com/logo/KR_024840.png",
+              "image_path": "https://cdn.kbsec.com/logo/KR_024840.png",
+              "description": "모터와 자성철심 생산, 비철금속 제조 및 판매업체"
+            },
+            {
+              "code": "317690",
+              "name": "퀀타매트릭스",
+              "exchange_code": "KRX",
+              "fluctuation_rate": 29.99,
+              "market_type": "KOSDAQ",
+              "country_code": "KR",
+              "image": "https://cdn.kbsec.com/logo/KR_317690.png",
+              "image_path": "https://cdn.kbsec.com/logo/KR_317690.png",
+              "description": "상급종합병원 및 검사수탁기관을 대상으로 체외진단 의료기기 생산, 판매"
+            },
+            {
+              "code": "417860",
+              "name": "오브젠",
+              "exchange_code": "KRX",
+              "fluctuation_rate": 29.95,
+              "market_type": "KOSDAQ",
+              "country_code": "KR",
+              "image": "https://cdn.kbsec.com/logo/KR_417860.png",
+              "image_path": "https://cdn.kbsec.com/logo/KR_417860.png",
+              "description": "AI 마케팅 솔루션 업체"
+            },
+            {
+              "code": "060900",
+              "name": "DGP",
+              "exchange_code": "KRX",
+              "fluctuation_rate": 29.91,
+              "market_type": "KOSDAQ",
+              "country_code": "KR",
+              "image": "https://cdn.kbsec.com/logo/KR_060900.png",
+              "image_path": "https://cdn.kbsec.com/logo/KR_060900.png",
+              "description": "풍력 및 태양광발전 사업 영위"
+            }
+          ],
+          "created_at": "2024-08-01 17:16:49",
+          "related_news": 3
+        },
+        {
+          "id": "202408011714115501",
+          "title": "‘적자 늪’ 빠진 SK이노베이션·SK온…상장까지 ‘버티기’",
+          "date": "2024-08-01 17:14:11",
+          "publisher": "NSP 통신",
+          "publisher_code": "55",
+          "info_type": "news",
+          "likes": 0,
+          "views": 86,
+          "tags": ["실적", "투자"],
+          "keywords": ["SK", "하반기", "합병"],
+          "key_sentences": [
+            "이노 적자 458억원…배터리 계열사 SK온·SKIET 사업 부진\n합병으로 SK온 체력 강화…캐즘 기간 내실 키우고 2026년 IPO;이노 적자 458억원…배터리 계열사 SK온·SKIET 사업 부진\n합병으로 SK온 체력 강화…캐즘 기간 내실 키우고 2026년 IPO",
+            "전 분기 대비 매출은 560억원, 영업이익은 6705억원 감소했다.",
+            "이중 ▲석유 사업을 영위하고 있는 SK에너지와 SK트레이딩 인터내셔널 ▲윤활유 사업을 맡고 있는 SK엔무브 등 주요 계열사들은 전 분기 대비 영업이익이 대체로 감소했지만 적자는 면했다.",
+            "전 분기 대비 매출과 영업이익 모두 감소했을 뿐만 아니라 영업손실이  4601억원에 달한다.",
+            "SK이노베이션은 SK온 체력을 키우기 위해 합병을 추진 중이다."
+          ],
+          "country_code": "KR",
+          "publisher_image": "https://mablewide.kbsec.com/images/logos/media-55.png",
+          "image": "https://file.nspna.com/news/2024/08/01/20240801162121_711233_1.jpg",
+          "stocks": [
+            {
+              "code": "096770",
+              "name": "SK이노베이션",
+              "exchange_code": "KRX",
+              "fluctuation_rate": 2.88,
+              "market_type": "KOSPI",
+              "country_code": "KR",
+              "image": "https://cdn.kbsec.com/logo/KR_096770.png",
+              "image_path": "https://cdn.kbsec.com/logo/KR_096770.png",
+              "description": "SK에너지, SK종합화학, SK루브리컨츠 등을 보유한 사업지주회사"
+            },
+            {
+              "code": "034730",
+              "name": "SK",
+              "exchange_code": "KRX",
+              "fluctuation_rate": 0.07,
+              "market_type": "KOSPI",
+              "country_code": "KR",
+              "image": "https://cdn.kbsec.com/logo/KR_034730.png",
+              "image_path": "https://cdn.kbsec.com/logo/KR_034730.png",
+              "description": "종합IT서비스업을 영위하는 SK그룹 지주회사"
+            }
+          ],
+          "created_at": "2024-08-01 17:15:40",
+          "related_news": 66
+        }
+      ]
+    }
+  }
 }
