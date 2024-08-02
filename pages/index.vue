@@ -35,6 +35,9 @@ const activeTabId = ref<string>("domestic");
           </section>
 
           <!-- 실시간 랭킹 -->
+          <section class="home-section">
+            <PageHomeRealtimeRanking />
+          </section>
 
           <!-- 내가 원하는 주식 찾기 -->
 

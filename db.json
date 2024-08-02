@@ -2359,5 +2359,323 @@
         }
       ]
     }
-  }
+  },
+  "RANKING": [
+    {
+      "SATRT_F": "B",
+      "ROWS": [
+        {
+          "SORT_CD": "C-1-1",
+          "TITLE": "거래량",
+          "OUT2": [
+            {
+              "bdyCmpr": "158",
+              "nowPrc": "2075",
+              "bdyCmprCcd": "2",
+              "isNm": "KODEX 200선물인버스2X",
+              "upDwnRP2": "    8.24",
+              "isCd": "252670",
+              "rnk": "   1"
+            },
+            {
+              "bdyCmpr": "410",
+              "nowPrc": "3080",
+              "bdyCmprCcd": "2",
+              "isNm": "랩지노믹스",
+              "upDwnRP2": "   15.36",
+              "isCd": "084650",
+              "rnk": "   2"
+            },
+            {
+              "bdyCmpr": "150",
+              "nowPrc": "2800",
+              "bdyCmprCcd": "2",
+              "isNm": "흥아해운",
+              "upDwnRP2": "    5.66",
+              "isCd": "003280",
+              "rnk": "   3"
+            },
+            {
+              "bdyCmpr": "27",
+              "nowPrc": "467",
+              "bdyCmprCcd": "2",
+              "isNm": "한국ANKOR유전",
+              "upDwnRP2": "    6.14",
+              "isCd": "152550",
+              "rnk": "   4"
+            },
+            {
+              "bdyCmpr": "96",
+              "nowPrc": "1846",
+              "bdyCmprCcd": "2",
+              "isNm": "휴마시스",
+              "upDwnRP2": "    5.49",
+              "isCd": "205470",
+              "rnk": "   5"
+            }
+          ]
+        },
+        {
+          "SORT_CD": "C-3-1",
+          "TITLE": "시가총액",
+          "OUT2": [
+            {
+              "bdyCmpr": "3500",
+              "nowPrc": "79600",
+              "bdyCmprCcd": "5",
+              "isNm": "삼성전자",
+              "upDwnRP2": "  -4.21",
+              "isCd": "005930",
+              "rnk": "   1"
+            },
+            {
+              "bdyCmpr": "20100",
+              "nowPrc": "173200",
+              "bdyCmprCcd": "5",
+              "isNm": "SK하이닉스",
+              "upDwnRP2": " -10.40",
+              "isCd": "000660",
+              "rnk": "   2"
+            },
+            {
+              "bdyCmpr": "2500",
+              "nowPrc": "336000",
+              "bdyCmprCcd": "2",
+              "isNm": "LG에너지솔루션",
+              "upDwnRP2": "   0.75",
+              "isCd": "373220",
+              "rnk": "   3"
+            },
+            {
+              "bdyCmpr": "14000",
+              "nowPrc": "911000",
+              "bdyCmprCcd": "5",
+              "isNm": "삼성바이오로직스",
+              "upDwnRP2": "  -1.51",
+              "isCd": "207940",
+              "rnk": "   4"
+            },
+            {
+              "bdyCmpr": "9500",
+              "nowPrc": "244000",
+              "bdyCmprCcd": "5",
+              "isNm": "현대차",
+              "upDwnRP2": "  -3.75",
+              "isCd": "005380",
+              "rnk": "   5"
+            }
+          ]
+        },
+        {
+          "SORT_CD": "C-2",
+          "TITLE": "거래대금",
+          "OUT2": [
+            {
+              "bdyCmpr": "20100",
+              "nowPrc": "173200",
+              "bdyCmprCcd": "5",
+              "isNm": "SK하이닉스",
+              "upDwnRP2": " -10.40",
+              "isCd": "000660",
+              "rnk": "   1"
+            },
+            {
+              "bdyCmpr": "3500",
+              "nowPrc": "79600",
+              "bdyCmprCcd": "5",
+              "isNm": "삼성전자",
+              "upDwnRP2": "  -4.21",
+              "isCd": "005930",
+              "rnk": "   2"
+            },
+            {
+              "bdyCmpr": "230",
+              "nowPrc": "1043995",
+              "bdyCmprCcd": "2",
+              "isNm": "KODEX CD금리액티브(합성)",
+              "upDwnRP2": "   0.02",
+              "isCd": "459580",
+              "rnk": "   3"
+            },
+            {
+              "bdyCmpr": "1645",
+              "nowPrc": "18845",
+              "bdyCmprCcd": "5",
+              "isNm": "KODEX 레버리지",
+              "upDwnRP2": "  -8.03",
+              "isCd": "122630",
+              "rnk": "   4"
+            },
+            {
+              "bdyCmpr": "158",
+              "nowPrc": "2075",
+              "bdyCmprCcd": "2",
+              "isNm": "KODEX 200선물인버스2X",
+              "upDwnRP2": "   8.24",
+              "isCd": "252670",
+              "rnk": "   5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SATRT_F": "A",
+      "ROWS": [
+        {
+          "SORT_CD": "C-1",
+          "TITLE": "많이 오른",
+          "OUT2": [
+            {
+              "bdyCmpr": "166",
+              "nowPrc": "720",
+              "bdyCmprCcd": "1",
+              "isNm": "대명소노시즌",
+              "upDwnRP2": "  29.96",
+              "isCd": "007720",
+              "rnk": "   1"
+            },
+            {
+              "bdyCmpr": "655",
+              "nowPrc": "2845",
+              "bdyCmprCcd": "1",
+              "isNm": "뉴보텍",
+              "upDwnRP2": "  29.91",
+              "isCd": "060260",
+              "rnk": "   2"
+            },
+            {
+              "bdyCmpr": "1240",
+              "nowPrc": "5390",
+              "bdyCmprCcd": "1",
+              "isNm": "대성하이텍",
+              "upDwnRP2": "  29.88",
+              "isCd": "129920",
+              "rnk": "   3"
+            },
+            {
+              "bdyCmpr": "1600",
+              "nowPrc": "7810",
+              "bdyCmprCcd": "2",
+              "isNm": "수젠텍",
+              "upDwnRP2": "  25.76",
+              "isCd": "253840",
+              "rnk": "   4"
+            },
+            {
+              "bdyCmpr": "910",
+              "nowPrc": "5640",
+              "bdyCmprCcd": "2",
+              "isNm": "셀리드",
+              "upDwnRP2": "  19.24",
+              "isCd": "299660",
+              "rnk": "   5"
+            }
+          ]
+        },
+        {
+          "SORT_CD": "C-2",
+          "TITLE": "거래대금",
+          "OUT2": [
+            {
+              "bdyCmpr": "20100",
+              "nowPrc": "173200",
+              "bdyCmprCcd": "5",
+              "isNm": "SK하이닉스",
+              "upDwnRP2": " -10.40",
+              "isCd": "000660",
+              "rnk": "   1"
+            },
+            {
+              "bdyCmpr": "3500",
+              "nowPrc": "79600",
+              "bdyCmprCcd": "5",
+              "isNm": "삼성전자",
+              "upDwnRP2": "  -4.21",
+              "isCd": "005930",
+              "rnk": "   2"
+            },
+            {
+              "bdyCmpr": "230",
+              "nowPrc": "1043995",
+              "bdyCmprCcd": "2",
+              "isNm": "KODEX CD금리액티브(합성)",
+              "upDwnRP2": "   0.02",
+              "isCd": "459580",
+              "rnk": "   3"
+            },
+            {
+              "bdyCmpr": "1645",
+              "nowPrc": "18845",
+              "bdyCmprCcd": "5",
+              "isNm": "KODEX 레버리지",
+              "upDwnRP2": "  -8.03",
+              "isCd": "122630",
+              "rnk": "   4"
+            },
+            {
+              "bdyCmpr": "158",
+              "nowPrc": "2075",
+              "bdyCmprCcd": "2",
+              "isNm": "KODEX 200선물인버스2X",
+              "upDwnRP2": "   8.24",
+              "isCd": "252670",
+              "rnk": "   5"
+            }
+          ]
+        },
+        {
+          "SORT_CD": "C-3",
+          "TITLE": "많이 내린",
+          "OUT2": [
+            {
+              "bdyCmpr": "3190",
+              "nowPrc": "7460",
+              "bdyCmprCcd": "4",
+              "isNm": "엑스큐어",
+              "upDwnRP2": " -29.95",
+              "isCd": "070300",
+              "rnk": "   1"
+            },
+            {
+              "bdyCmpr": "2970",
+              "nowPrc": "12710",
+              "bdyCmprCcd": "5",
+              "isNm": "퀄리타스반도체",
+              "upDwnRP2": " -18.94",
+              "isCd": "432720",
+              "rnk": "   2"
+            },
+            {
+              "bdyCmpr": "5000",
+              "nowPrc": "21425",
+              "bdyCmprCcd": "5",
+              "isNm": "TIGER 미국필라델피아반도체레버리지(합성)",
+              "upDwnRP2": " -18.92",
+              "isCd": "423920",
+              "rnk": "   3"
+            },
+            {
+              "bdyCmpr": "4590",
+              "nowPrc": "21110",
+              "bdyCmprCcd": "5",
+              "isNm": "미래에셋 레버리지 미국 AI TOP3 ETN",
+              "upDwnRP2": " -17.86",
+              "isCd": "520073",
+              "rnk": "   4"
+            },
+            {
+              "bdyCmpr": "8100",
+              "nowPrc": "42000",
+              "bdyCmprCcd": "5",
+              "isNm": "삼화전기",
+              "upDwnRP2": " -16.17",
+              "isCd": "009470",
+              "rnk": "   5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -12,7 +12,7 @@ const news = computed(() => props.news);
 </script>
 
 <template>
-  <ul class="news-list">
+  <ul class="news-list home-list">
     <li v-for="(newsList, key) in news" :key="key">
       <NewsItem v-for="(item, index) in newsList" :key="index" :item="item" />
     </li>
@@ -21,9 +21,6 @@ const news = computed(() => props.news);
 
 <style scoped lang="scss">
 .news-list {
-  margin-top: 0.9rem;
-  display: flex;
-  gap: 8rem;
   min-height: 20.5rem;
 
   li {
