@@ -1,72 +1,69 @@
-<script setup lang="ts">
-type Tab = {
-  id: string;
-  title: string;
-  content?: string | Component;
-};
-type Tabs = Tab[];
-type TabId = Tab["id"];
-
+<script setup lang="ts" generic="TOption extends string | Record<string, unknown>, TValue = TOption">
 interface Props {
-  tabs: Tabs;
+  options: TOption[];
+  optionLabel: (option: TOption) => string;
+  optionValue: (option: TOption) => TValue;
   styleId?: "default" | "boxed" | "text-divider";
 }
 
-const activeTabId = defineModel<TabId>({
-  required: true,
-});
+interface Emit {
+  (event: "change", tabId: TValue): void;
+}
 
 const props = withDefaults(defineProps<Props>(), {
   styleId: "default",
 });
+const emit = defineEmits<Emit>();
 
-const activeTab = computed(() => props.tabs.find((tab) => tab.id === activeTabId.value));
+const model = defineModel<TValue>({
+  required: true,
+});
 
-const isActive = (tabId: TabId) => activeTabId.value === tabId;
-const changeTab = (tabId: TabId) => {
-  activeTabId.value = tabId;
-};
-
-const isVueComponent = (value: unknown): value is Component => {
-  if (typeof value === "object" && value !== null) {
-    return "render" in value || "setup" in value || "template" in value;
+function toKey(option: TOption): string {
+  if (props.optionValue) {
+    return JSON.stringify(props.optionValue(option));
   }
 
-  return false;
-};
+  return typeof option === "string" ? option : JSON.stringify(option);
+}
 
-const isComponent = (value: Tab["content"]) => {
-  if (isVueComponent(value)) {
-    return true;
+function optionToValue(option: TOption) {
+  if (props.optionValue) {
+    return props.optionValue(option);
   }
 
-  if (typeof value === "string") {
-    return isVueComponent(resolveComponent(value));
-  }
-  return false;
-};
+  return option;
+}
+
+function onChange(tabId: TValue) {
+  model.value = tabId;
+  emit("change", tabId);
+}
+
+function isEqual(a: unknown, b: unknown): boolean {
+  return JSON.stringify(a) === JSON.stringify(b);
+}
+
+function handleClickButton(option: TOption) {
+  onChange(props.optionValue(option));
+}
 </script>
 
 <template>
   <div :class="`tab-${props.styleId}`">
     <ul class="tab-header">
       <li
-        v-for="tab in props.tabs"
-        :key="tab.id"
+        v-for="option in props.options"
+        :key="toKey(option)"
         :class="{
-          active: isActive(tab.id),
+          active: isEqual(optionToValue(option), model),
         }"
       >
-        <button @click="changeTab(tab.id)">{{ tab.title }}</button>
+        <button @click="handleClickButton(option)">
+          {{ props.optionLabel(option) }}
+        </button>
       </li>
     </ul>
-    <slot :name="activeTabId">
-      <template v-if="isComponent(activeTab?.content)">
-        <div class="tab-content">
-          <component :is="activeTab?.content" />
-        </div>
-      </template>
-    </slot>
   </div>
 </template>
 

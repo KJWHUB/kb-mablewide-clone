@@ -34,7 +34,14 @@ onMounted(() => {
 <template>
   <div ref="tabsContainerRef" class="tabs-container" :style="tabsContainerStyle">
     <div ref="tabsWrapRef" class="tabs-wrap" :style="tabsWrapStyle">
-      <Tabs v-model="activeTabId" :tabs="tabs" style-id="boxed" style="width: 116px" />
+      <Tabs
+        v-model="activeTabId"
+        :options="tabs"
+        :option-label="(option) => option.title"
+        :option-value="(option) => option.id"
+        style-id="boxed"
+        style="width: 116px"
+      />
     </div>
   </div>
 </template>

@@ -27,7 +27,8 @@ const activeTab = ref(tabs[0].id);
 <template>
   <DialogBase v-model="visible" title="로그인" style="width: 44rem">
     <template #body>
-      <Tabs v-model="activeTab" :tabs="tabs" />
+      <Tabs v-model="activeTab" :options="tabs" :option-label="(option) => option.title" :option-value="(option) => option.id" />
+      <component :is="tabs.find((el) => el.id === activeTab)?.content" />
     </template>
   </DialogBase>
 </template>
