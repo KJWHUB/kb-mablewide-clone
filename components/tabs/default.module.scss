@@ -24,6 +24,8 @@ $--brd_type03: #303038;
         border-bottom: 0.1rem solid $--brd_type03;
         white-space: nowrap;
         cursor: pointer;
+
+        transition: all 0.3s;
       }
 
       &.active {

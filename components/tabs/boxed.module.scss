@@ -16,6 +16,8 @@
         font-size: 1.4rem;
         line-height: 2.1rem;
         cursor: pointer;
+
+        transition: all 0.3s;
       }
 
       &.active {
