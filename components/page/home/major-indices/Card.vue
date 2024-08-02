@@ -65,7 +65,7 @@ const rateFormat = (rate: string) => {
     </div>
 
     <!-- chart -->
-    <ChartHomeMajor :chart-data="item.CHART_DATA" :cardType="cardType" />
+    <ChartHomeMajor :chart-data="item.CHART_DATA" :card-type="cardType" />
   </div>
 </template>
 
@@ -77,6 +77,7 @@ const rateFormat = (rate: string) => {
   padding: 1.6rem 2.4rem;
   color: inherit;
   overflow: hidden;
+  width: 24.2rem;
 
   .content {
     flex: 1;

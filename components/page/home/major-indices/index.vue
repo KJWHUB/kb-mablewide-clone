@@ -37,7 +37,7 @@ fetchMajorIndices();
         }"
         :speed="1000"
         :slides-per-view="6"
-        :space-between="24"
+        :space-between="260"
         style="width: 100%"
       >
         <template v-for="(item, i) in majorIndices" :key="item.MARKET + i">
