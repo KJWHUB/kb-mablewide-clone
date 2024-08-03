@@ -32,16 +32,31 @@ interface Props {
 
 const props = defineProps<Props>();
 
-const { rank, imgUrl, name, currentPrice, priceDiff, priceDiffRate, priceDiffType } = toRefs(props.item);
+const item = reactive(props.item);
+
+const { rank, imgUrl, name, currentPrice, priceDiff, priceDiffRate, priceDiffType } = toRefs(item);
 
 const price = computed(() => `${numberWithCommas(currentPrice.value)}원`);
 const priceDiffText = computed(() => `${numberWithCommas(priceDiff.value)}원 (${deleteMinusSign(priceDiffRate.value)}%)`);
+
+const defaultImgUrl = "/_nuxt/assets/images/stockDefault/Stock_default_kosdaq.png";
+
+function onError() {
+  item.imgUrl = defaultImgUrl;
+}
+
 </script>
 
 <template>
   <li class="stock-item">
     <p class="rank">{{ rank }}</p>
-    <img class="stock-img" :src="imgUrl" :data-src="imgUrl" data-error="/images/stockDefault/Stock_default_kosdaq.png" :alt="name" />
+    <ClientOnly>
+        <img 
+        class="stock-img" 
+        :src="imgUrl"
+        :alt="name"
+        @error="onError">
+    </ClientOnly>
     <p class="name">{{ name }}</p>
     <div class="price">
       <p class="current-price">{{ price }}</p>

@@ -1,19 +1,6 @@
 <script setup lang="ts">
 import Item, { getPriceDiffType, type StockItem } from "./Item.vue";
 
-const tempData: StockItem = {
-  id: "1",
-  rank: 1,
-  imgUrl: "https://cdn.kbsec.com/logo/KR_007720.png",
-  name: "대명소노시즌",
-  currentPrice: 1000,
-  priceDiff: 100,
-  priceDiffRate: 10,
-  priceDiffType: "up",
-};
-
-// ============================================================
-
 const { data } = useFetch("/api/rank", {
   method: "GET",
 });
