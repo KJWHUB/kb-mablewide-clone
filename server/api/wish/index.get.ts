@@ -1,10 +1,10 @@
 import data from "@/db.json";
 
 export interface Root {
-  RANKING: Ranking[];
+  WISH: Wish[];
 }
 
-export interface Ranking {
+export interface Wish {
   SATRT_F: string;
   ROWS: Row[];
 }
@@ -12,25 +12,25 @@ export interface Ranking {
 export interface Row {
   SORT_CD: string;
   TITLE: string;
-  OUT2: Out2[];
+  OUT: Out[];
 }
 
-export interface Out2 {
+export interface Out {
   bdyCmpr: string;
   nowPrc: string;
   bdyCmprCcd: string;
   isNm: string;
   upDwnRP2: string;
   isCd: string;
-  rnk: string;
+  rnk?: string;
 }
 
-export type RankResponse = Row[];
+export type WishResponse = Row[];
 
-export default defineEventHandler((): RankResponse => {
-  const RANKING = data.RANKING as Root["RANKING"];
+export default defineEventHandler((): WishResponse => {
+  const WISH = data.WISH as Root["WISH"];
 
-  const ROWS = RANKING[1].ROWS;
+  const ROWS = WISH[1].ROWS;
 
   return ROWS;
 });

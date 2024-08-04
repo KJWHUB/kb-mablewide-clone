@@ -40,6 +40,9 @@ const activeTabId = ref<string>("domestic");
           </section>
 
           <!-- 내가 원하는 주식 찾기 -->
+          <section class="home-section">
+            <PageHomeStockSearch />
+          </section>
 
           <!-- 요즘 돈이 몰리는 국내 테마 -->
 
