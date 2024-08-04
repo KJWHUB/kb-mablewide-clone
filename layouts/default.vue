@@ -20,7 +20,7 @@
 $sidebar-width: 8rem;
 $header-height: 5.6rem;
 
-$border-color: #151419;
+$border-color: var(--bg_type18);
 
 $content-border: 4px solid $border-color;
 
