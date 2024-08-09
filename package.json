@@ -21,7 +21,8 @@
     "nuxt-svgo": "^4.0.1",
     "nuxt-swiper": "^1.2.2",
     "vue": "^3.4.29",
-    "vue-router": "^4.3.3"
+    "vue-router": "^4.3.3",
+    "zod": "^3.23.8"
   },
   "packageManager": "pnpm@8.11.0+sha1.01bf39424f1008f29012bbae851d2acb8a20a0d0",
   "devDependencies": {
