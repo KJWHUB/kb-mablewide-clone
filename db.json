@@ -2978,232 +2978,202 @@
   ],
   "THEME": [
     {
-      "thmCd": "0312",
-      "thmNm": "소모성자재구매대행(MRO)",
-      "bdyCmprUpDwnRP2": "   6.69",
+      "thmCd": "0318",
+      "thmNm": "백화점",
+      "bdyCmprUpDwnRP2": "   2.91",
       "OUT2": [
         {
-          "isCd": "007720",
-          "isNm": "대명소노시즌",
-          "upDwnRP2": "  29.96",
-          "bdyCmprCcd": "1"
+          "isCd": "004170",
+          "isNm": "신세계",
+          "upDwnRP2": "   1.47",
+          "bdyCmprCcd": "2"
         },
         {
-          "isCd": "080010",
-          "isNm": "이상네트웍스",
-          "upDwnRP2": "  -2.14",
+          "isCd": "006370",
+          "isNm": "대구백화점",
+          "upDwnRP2": "  -1.79",
           "bdyCmprCcd": "5"
         },
         {
-          "isCd": "092130",
-          "isNm": "이크레더블",
+          "isCd": "019010",
+          "isNm": "베뉴지",
+          "upDwnRP2": "   3.23",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "023530",
+          "isNm": "롯데쇼핑",
+          "upDwnRP2": "   0.16",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "037710",
+          "isNm": "광주신세계",
+          "upDwnRP2": "   1.02",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "069960",
+          "isNm": "현대백화점",
+          "upDwnRP2": "   0.32",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "452260  ",
+          "isNm": "한화갤러리아",
+          "upDwnRP2": "  15.96",
+          "bdyCmprCcd": "2"
+        }
+      ]
+    },
+    {
+      "thmCd": "0154",
+      "thmNm": "건설 대표주",
+      "bdyCmprUpDwnRP2": "   2.73",
+      "OUT2": [
+        {
+          "isCd": "000720",
+          "isNm": "현대건설",
+          "upDwnRP2": "   1.58",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "006360",
+          "isNm": "GS건설",
+          "upDwnRP2": "   2.45",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "028260",
+          "isNm": "삼성물산",
+          "upDwnRP2": "   2.04",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "047040",
+          "isNm": "대우건설",
+          "upDwnRP2": "   1.08",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "294870",
+          "isNm": "HDC현대산업개발",
+          "upDwnRP2": "   7.66",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "375500",
+          "isNm": "DL이앤씨",
+          "upDwnRP2": "   1.55",
+          "bdyCmprCcd": "2"
+        }
+      ]
+    },
+    {
+      "thmCd": "0426",
+      "thmNm": "양자암호",
+      "bdyCmprUpDwnRP2": "   2.27",
+      "OUT2": [
+        {
+          "isCd": "017670",
+          "isNm": "SK텔레콤",
+          "upDwnRP2": "   1.45",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "030200",
+          "isNm": "KT",
+          "upDwnRP2": "   0.76",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "032640",
+          "isNm": "LG유플러스",
+          "upDwnRP2": "   0.72",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "046970",
+          "isNm": "우리로",
+          "upDwnRP2": "   5.16",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "050890",
+          "isNm": "쏠리드",
+          "upDwnRP2": "   0.52",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "053300",
+          "isNm": "한국정보인증",
+          "upDwnRP2": "   0.38",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "056360",
+          "isNm": "코위버",
+          "upDwnRP2": "  -0.64",
+          "bdyCmprCcd": "5"
+        },
+        {
+          "isCd": "062970",
+          "isNm": "피피아이",
+          "upDwnRP2": "  -5.09",
+          "bdyCmprCcd": "5"
+        },
+        {
+          "isCd": "091440",
+          "isNm": "한울소재과학",
+          "upDwnRP2": "   3.26",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "115440",
+          "isNm": "우리넷",
+          "upDwnRP2": "  -2.65",
+          "bdyCmprCcd": "5"
+        },
+        {
+          "isCd": "115500",
+          "isNm": "케이씨에스",
+          "upDwnRP2": "  17.05",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "123010",
+          "isNm": "아이윈플러스",
+          "upDwnRP2": "   7.98",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "172670  ",
+          "isNm": "에이엘티",
+          "upDwnRP2": "   0.50",
+          "bdyCmprCcd": "2"
+        },
+        {
+          "isCd": "203650",
+          "isNm": "드림시큐리티",
           "upDwnRP2": "   0.00",
           "bdyCmprCcd": "3"
         },
         {
-          "isCd": "122900",
-          "isNm": "아이마켓코리아",
-          "upDwnRP2": "  -1.04",
-          "bdyCmprCcd": "5"
-        }
-      ]
-    },
-    {
-      "thmCd": "0546",
-      "thmNm": "마이코플라스마 폐렴",
-      "bdyCmprUpDwnRP2": "   1.89",
-      "OUT2": [
-        {
-          "isCd": "002720",
-          "isNm": "국제약품",
-          "upDwnRP2": "  -0.47",
+          "isCd": "208710",
+          "isNm": "바이오로그디바이스",
+          "upDwnRP2": "  -1.17",
           "bdyCmprCcd": "5"
         },
         {
-          "isCd": "004720",
-          "isNm": "팜젠사이언스",
-          "upDwnRP2": "  -0.75",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "009290",
-          "isNm": "광동제약",
-          "upDwnRP2": "  -2.35",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "011040",
-          "isNm": "경동제약",
-          "upDwnRP2": "  -0.43",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "048530",
-          "isNm": "인트론바이오",
-          "upDwnRP2": "  -2.02",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "053950",
-          "isNm": "경남제약",
-          "upDwnRP2": "   2.65",
+          "isCd": "232830  ",
+          "isNm": "시큐센",
+          "upDwnRP2": "   1.54",
           "bdyCmprCcd": "2"
         },
         {
-          "isCd": "058110",
-          "isNm": "멕아이씨에스",
-          "upDwnRP2": "  10.42",
-          "bdyCmprCcd": "2"
-        },
-        {
-          "isCd": "180400",
-          "isNm": "DXVX",
-          "upDwnRP2": "  -2.12",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "229000",
-          "isNm": "젠큐릭스",
-          "upDwnRP2": "  -5.13",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "253840",
-          "isNm": "수젠텍",
-          "upDwnRP2": "  25.76",
-          "bdyCmprCcd": "2"
-        },
-        {
-          "isCd": "307750",
-          "isNm": "국전약품",
-          "upDwnRP2": "  -3.26",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "330350",
-          "isNm": "위더스제약",
-          "upDwnRP2": "  -4.09",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "950130",
-          "isNm": "엑세스바이오",
-          "upDwnRP2": "   6.33",
-          "bdyCmprCcd": "2"
-        }
-      ]
-    },
-    {
-      "thmCd": "0516",
-      "thmNm": "엠폭스(원숭이두창)",
-      "bdyCmprUpDwnRP2": "   1.72",
-      "OUT2": [
-        {
-          "isCd": "004720",
-          "isNm": "팜젠사이언스",
-          "upDwnRP2": "  -0.75",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "005250",
-          "isNm": "녹십자홀딩스",
-          "upDwnRP2": "  -3.09",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "005690",
-          "isNm": "파미셀",
-          "upDwnRP2": "  -3.17",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "044480",
-          "isNm": "빌리언스",
-          "upDwnRP2": "  -2.81",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "048410",
-          "isNm": "현대바이오",
-          "upDwnRP2": "   0.64",
-          "bdyCmprCcd": "2"
-        },
-        {
-          "isCd": "053980",
-          "isNm": "오상자이엘",
-          "upDwnRP2": "  -1.47",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "064550",
-          "isNm": "바이오니아",
-          "upDwnRP2": "  -1.32",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "079190",
-          "isNm": "케스피온",
-          "upDwnRP2": "  -6.80",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "084650",
-          "isNm": "랩지노믹스",
-          "upDwnRP2": "  15.36",
-          "bdyCmprCcd": "2"
-        },
-        {
-          "isCd": "096530",
-          "isNm": "씨젠",
-          "upDwnRP2": "   7.04",
-          "bdyCmprCcd": "2"
-        },
-        {
-          "isCd": "109820",
-          "isNm": "진매트릭스",
-          "upDwnRP2": "  16.40",
-          "bdyCmprCcd": "2"
-        },
-        {
-          "isCd": "142280",
-          "isNm": "녹십자엠에스",
-          "upDwnRP2": "  -2.09",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "195940",
-          "isNm": "HK이노엔",
-          "upDwnRP2": "  -3.24",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "205470",
-          "isNm": "휴마시스",
-          "upDwnRP2": "   5.49",
-          "bdyCmprCcd": "2"
-        },
-        {
-          "isCd": "206640",
-          "isNm": "바디텍메드",
-          "upDwnRP2": "  -2.94",
-          "bdyCmprCcd": "5"
-        },
-        {
-          "isCd": "214610",
-          "isNm": "미코바이오메드",
-          "upDwnRP2": "   6.71",
-          "bdyCmprCcd": "2"
-        },
-        {
-          "isCd": "225220",
-          "isNm": "제놀루션",
-          "upDwnRP2": "   0.70",
-          "bdyCmprCcd": "2"
-        },
-        {
-          "isCd": "950130",
-          "isNm": "엑세스바이오",
-          "upDwnRP2": "   6.33",
+          "isCd": "356680  ",
+          "isNm": "엑스게이트",
+          "upDwnRP2": "   8.79",
           "bdyCmprCcd": "2"
         }
       ]
