@@ -8,8 +8,6 @@ const { data } = useFetch("/api/theme", {
   method: "GET",
 });
 
-console.log("", data);
-
 const { tableDataComputed } = useThemeTableData({ data });
 
 function useThemeTableData({ data }: { data: Ref<Theme[] | null> }) {
