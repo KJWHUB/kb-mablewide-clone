@@ -50,6 +50,9 @@ const activeTabId = ref<string>("domestic");
           </section>
 
           <!-- 쉽게읽는 투자정보  -->
+          <section class="home-section">
+            <PageHomeThemeStock />
+          </section>
 
           <!-- ETF TOP5 -->
 
