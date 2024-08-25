@@ -100,3 +100,13 @@ a:visited {
   display: flex;
   gap: 8rem;
 }
+
+.hover-move-up {
+  position: relative;
+
+  transition: transform 0.4s;
+}
+
+.hover-move-up:hover {
+  transform: translateY(-1.2rem) !important;
+}

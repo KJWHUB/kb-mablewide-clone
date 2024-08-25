@@ -33,9 +33,9 @@ console.log(data);
 
     <!-- card -->
     <ClientOnly>
-      <Swiper :slides-per-view="4" :space-between="30" style="margin-top: 2.4rem">
+      <Swiper :slides-per-view="4" :space-between="30" style="margin-top: 2.4rem; overflow: visible">
         <template v-for="item in dataComputed" :key="item">
-          <SwiperSlide>
+          <SwiperSlide class="hover-move-up">
             <Item :item="item" />
           </SwiperSlide>
         </template>
