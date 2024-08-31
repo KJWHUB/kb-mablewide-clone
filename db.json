@@ -3315,5 +3315,105 @@
       "ctns_mng_tcd": "1",
       "ctns_url": "                                                                                                                                                                                                        "
     }
+  ],
+  "ETFTOP5": [
+    {
+      "SORT_CD": "J-1",
+      "ETF_AREA_NM": "인기검색",
+      "OUT2": [
+        {
+          "shcode": "360750",
+          "isNm": "TIGER 미국S&P500",
+          "upDwnRP2": "    0.76"
+        },
+        {
+          "shcode": "133690",
+          "isNm": "TIGER 미국나스닥100",
+          "upDwnRP2": "    1.06"
+        },
+        {
+          "shcode": "458730",
+          "isNm": "TIGER 미국배당다우존스",
+          "upDwnRP2": "    0.30"
+        },
+        {
+          "shcode": "459580",
+          "isNm": "KODEX CD금리액티브(합성)",
+          "upDwnRP2": "    0.02"
+        },
+        {
+          "shcode": "453870",
+          "isNm": "TIGER 인도니프티50",
+          "upDwnRP2": "    0.74"
+        }
+      ]
+    },
+    {
+      "SORT_CD": "J-2",
+      "ETF_AREA_NM": "수익률",
+      "OUT2": [
+        {
+          "isCd": "375760",
+          "isNm": "HANARO 탄소효율그린뉴딜",
+          "bdyCmprUpDwnRP2": "   9.11"
+        },
+        {
+          "isCd": "438320",
+          "isNm": "TIGER 차이나항셍테크레버리지(합성 H)",
+          "bdyCmprUpDwnRP2": "   8.03"
+        },
+        {
+          "isCd": "456680",
+          "isNm": "TIGER 차이나전기차레버리지(합성)",
+          "bdyCmprUpDwnRP2": "   7.21"
+        },
+        {
+          "isCd": "371870",
+          "isNm": "ACE 차이나항셍테크",
+          "bdyCmprUpDwnRP2": "   5.51"
+        },
+        {
+          "isCd": "423920",
+          "isNm": "TIGER 미국필라델피아반도체레버리지(합성)",
+          "bdyCmprUpDwnRP2": "   4.62"
+        }
+      ]
+    },
+    {
+      "SORT_CD": "J-3",
+      "ETF_AREA_NM": "거래대금상위",
+      "OUT2": [
+        {
+          "isCd": "459580",
+          "isNm": "KODEX CD금리액티브(합성)",
+          "rnk": "1",
+          "acmlDlTwAmt": "3613"
+        },
+        {
+          "isCd": "252670",
+          "isNm": "KODEX 200선물인버스2X",
+          "rnk": "2",
+          "acmlDlTwAmt": "3184"
+        },
+        {
+          "isCd": "122630",
+          "isNm": "KODEX 레버리지",
+          "rnk": "3",
+          "acmlDlTwAmt": "3146"
+        },
+        {
+          "isCd": "069500",
+          "isNm": "KODEX 200",
+          "rnk": "4",
+          "acmlDlTwAmt": "2344"
+        },
+        {
+          "isCd": "360750",
+          "isNm": "TIGER 미국S&P500",
+          "rnk": "5",
+          "acmlDlTwAmt": "2013"
+        }
+      ]
+    }
   ]
 }

@@ -3,6 +3,7 @@ export type StockThemeItem = {
   rank: number;
   name: string;
   changePercent: number;
+  amountType?: boolean;
 };
 </script>
 
@@ -15,7 +16,7 @@ const props = defineProps<Props>();
 
 const item = reactive(props.item);
 
-const { rank, changePercent, name } = toRefs(item);
+const { rank, changePercent, name, amountType } = toRefs(item);
 
 const color = computed(() => {
   if (changePercent.value > 0) {
@@ -26,14 +27,18 @@ const color = computed(() => {
     return "inherit";
   }
 });
+
+const isAmountType = computed(() => amountType?.value);
 const changePercentText = computed(() => `${changePercent.value}%`);
+const changeAmountText = computed(() => `${changePercent.value}억원`);
 </script>
 
 <template>
   <li class="stock-theme-item">
     <p class="rank">{{ rank }}</p>
     <p class="name">{{ name }}</p>
-    <p class="change-percent" :class="{ [color]: true }">{{ changePercentText }}</p>
+    <p v-if="isAmountType" class="change-amount">{{ changeAmountText }}</p>
+    <p v-else class="change-percent" :class="{ [color]: true }">{{ changePercentText }}</p>
   </li>
 </template>
 
@@ -85,6 +90,17 @@ $down-color: var(--text_down);
     &.down {
       color: $down-color;
     }
+  }
+
+  .change-amount {
+    text-align: right;
+    padding-left: 1.6rem;
+    position: relative;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+
+    color: var(--text_type01);
+    white-space: nowrap;
   }
 }
 </style>
