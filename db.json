@@ -3415,5 +3415,43 @@
         }
       ]
     }
+  ],
+  "COSU_PICK": [
+    {
+      "id": "1",
+      "imageUrl": "https://mablewide.kbsec.com/images/mydrawer/gosu_05.png",
+      "title": "손익의 흐름을 잘 아는 고수가 어제 무슨 종목을 매도했을까?",
+      "type": "이익관리 고수"
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://mablewide.kbsec.com/images/mydrawer/gosu_08.png",
+      "title": "진~득하게 길게 투자하는 고수의 종목은?",
+      "type": "장기보유 고수"
+    },
+    {
+      "id": "3",
+      "imageUrl": "https://mablewide.kbsec.com/images/mydrawer/gosu_04.png",
+      "title": "지금! 불타기 고수가 매수하고 있는 종목은?",
+      "type": "불타기 고수"
+    },
+    {
+      "id": "4",
+      "imageUrl": "https://mablewide.kbsec.com/images/mydrawer/gosu_07.png",
+      "title": "골고루~ 투자하는 고수의 보유 종목은?",
+      "type": "분산투자 고수"
+    },
+    {
+      "id": "5",
+      "imageUrl": "https://mablewide.kbsec.com/images/mydrawer/gosu_09.png",
+      "title": "장기적인 안목을 지닌 고수는 최근 1주일 동안 어떤 종목을 샀을까?",
+      "type": "장기보유 고수"
+    },
+    {
+      "id": "6",
+      "imageUrl": "https://mablewide.kbsec.com/images/mydrawer/gosu_23.png",
+      "title": "마이너스이 손?! 그들이 전일 매수한 종목은?",
+      "type": "사면빠져 고수"
+    }
   ]
 }

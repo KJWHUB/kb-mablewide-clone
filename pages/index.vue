@@ -60,6 +60,9 @@ const activeTabId = ref<string>("domestic");
           </section>
 
           <!-- 국내 투자고수의 Pick -->
+          <section class="home-section">
+            <PageHomeCosuPick />
+          </section>
         </div>
       </article>
     </div>
