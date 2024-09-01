@@ -30,7 +30,7 @@ const color = computed(() => {
 
 const isAmountType = computed(() => amountType?.value);
 const changePercentText = computed(() => `${changePercent.value}%`);
-const changeAmountText = computed(() => `${changePercent.value}억원`);
+const changeAmountText = computed(() => `${numberWithCommas(changePercent.value)}억원`);
 </script>
 
 <template>
