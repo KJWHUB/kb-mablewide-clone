@@ -64,6 +64,9 @@ const activeTabId = ref<string>("domestic");
             <PageHomeCosuPick />
           </section>
         </div>
+
+        <!-- footer -->
+        <FooterMainHome />
       </article>
     </div>
   </div>
