@@ -6,8 +6,6 @@ const { data } = useFetch("/api/cosu-pick", {
   method: "GET",
 });
 
-console.log(data);
-
 const slideList = computed(() => {
   if (!data.value) {
     return [];

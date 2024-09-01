@@ -82,7 +82,6 @@ const activeTabId = ref<string>("domestic");
   position: relative;
   max-width: 153.6rem;
   margin: 0 auto;
-  margin-top: 0.4rem;
 
   article.inner {
     position: relative;

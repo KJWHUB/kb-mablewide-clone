@@ -32,7 +32,7 @@ const content = ref<string>("D-40 까지 국내 수수료 완전 무료");
   left: 8.4rem;
 
   width: calc(100% - 8.4rem);
-  height: 4.4rem;
+  height: 4.5rem;
   z-index: 99;
 }
 

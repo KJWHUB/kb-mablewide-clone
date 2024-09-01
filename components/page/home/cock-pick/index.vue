@@ -22,8 +22,6 @@ const dataComputed = computed(() => {
 
   return processList(data.value);
 });
-
-console.log(data);
 </script>
 
 <template>
